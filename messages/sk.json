@@ -29,8 +29,29 @@
     "default": "limitovaná kolekcia práve v predaji"
   },
   "home": {
+    "heroEyebrow": "kultúrny obchod",
     "heroHeading": "každé mesto má svoj príbeh",
     "heroSubtitle": "príbehy, miesta a atmosféru miest premieňame na krásne, zberateľské predmety.",
+    "categoriesTitle": "čo ponúkame",
+    "whyTitle": "prečo city glory",
+    "why": {
+      "artwork": {
+        "title": "krásne motívy",
+        "text": "Pôvodné ilustrácie a dizajny inšpirované konkrétnymi miestami a príbehmi."
+      },
+      "stories": {
+        "title": "originálne príbehy",
+        "text": "Za každým motívom je príbeh mesta, miesta alebo umelca."
+      },
+      "materials": {
+        "title": "prémiové materiály",
+        "text": "Kvalitná tlač a materiály, ktoré vydržia a krásne starnú."
+      },
+      "returns": {
+        "title": "jednoduché vrátenie",
+        "text": "Pohodlné vrátenie tovaru do 14 dní, bez komplikácií."
+      }
+    },
     "featuredTitle": "vybrané kúsky",
     "featuredSubtitle": "naprieč všetkými kategóriami — nielen bestsellery"
   },

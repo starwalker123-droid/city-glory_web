@@ -29,8 +29,29 @@
     "default": "limited collection now available"
   },
   "home": {
+    "heroEyebrow": "cultural store",
     "heroHeading": "every city has a story",
     "heroSubtitle": "we turn the stories, places and atmosphere of cities into beautiful, collectible objects.",
+    "categoriesTitle": "what we make",
+    "whyTitle": "why city glory",
+    "why": {
+      "artwork": {
+        "title": "beautiful artwork",
+        "text": "Original illustrations and designs inspired by specific places and stories."
+      },
+      "stories": {
+        "title": "original stories",
+        "text": "Behind every motif there is a story of a city, a place or an artist."
+      },
+      "materials": {
+        "title": "premium materials",
+        "text": "Quality printing and materials that last and age beautifully."
+      },
+      "returns": {
+        "title": "easy returns",
+        "text": "Comfortable returns within 14 days, no hassle."
+      }
+    },
     "featuredTitle": "featured pieces",
     "featuredSubtitle": "across every category — not just bestsellers"
   },
