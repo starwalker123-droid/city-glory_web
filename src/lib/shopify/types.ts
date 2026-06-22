@@ -3,6 +3,7 @@
  * Storefront API will return so the mock layer can be swapped for real queries
  * in Phase 1 without touching components.
  */
+import type { CategoryKey } from "@/config/catalog";
 
 export type Money = {
   amount: number;
@@ -16,15 +17,8 @@ export type ProductImage = {
   height: number;
 };
 
-export type ProductCategory =
-  | "tricka"
-  | "printy"
-  | "magnetky"
-  | "kachlicky"
-  | "pohladnice"
-  | "tasky"
-  | "odznaky"
-  | "nalepky";
+// Category identifiers come from the catalog config (single source of truth).
+export type ProductCategory = CategoryKey;
 
 export type ProductBadge = "capsula" | "viral" | "novinka" | "limitovane";
 

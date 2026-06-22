@@ -55,5 +55,34 @@
     "subtitle": "skoršie prístupy, limitované edície a príbehy miest priamo do vašej schránky.",
     "placeholder": "váš e-mail",
     "submit": "prihlásiť sa"
+  },
+  "category": {
+    "tricka": "tričká",
+    "mikiny": "mikiny",
+    "crewnecky": "crewnecky",
+    "siltovky": "šiltovky",
+    "ciapky": "čiapky",
+    "ponozky": "ponožky",
+    "printy": "printy",
+    "magnetky": "magnetky",
+    "kachlicky": "kachličky",
+    "pohladnice": "pohľadnice",
+    "tasky": "tašky",
+    "odznaky": "odznaky",
+    "nalepky": "nálepky",
+    "ramy": "rámy",
+    "vankuse": "vankúše",
+    "sviecky": "sviečky",
+    "zapisniky": "zápisníky"
+  },
+  "theme": {
+    "mestaMiesta": "mestá a miesta",
+    "architektura": "architektúra",
+    "historia": "história",
+    "priroda": "príroda",
+    "minimalisticke": "minimalistické",
+    "osobnosti": "osobnosti",
+    "sTextom": "s textom",
+    "abstraktne": "abstraktné"
   }
 }

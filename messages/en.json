@@ -55,5 +55,34 @@
     "subtitle": "early access, limited editions and city stories — straight to your inbox.",
     "placeholder": "your email",
     "submit": "subscribe"
+  },
+  "category": {
+    "tricka": "t-shirts",
+    "mikiny": "hoodies",
+    "crewnecky": "crewnecks",
+    "siltovky": "caps",
+    "ciapky": "beanies",
+    "ponozky": "socks",
+    "printy": "prints",
+    "magnetky": "magnets",
+    "kachlicky": "tiles",
+    "pohladnice": "postcards",
+    "tasky": "bags",
+    "odznaky": "pins",
+    "nalepky": "stickers",
+    "ramy": "frames",
+    "vankuse": "pillows",
+    "sviecky": "candles",
+    "zapisniky": "notebooks"
+  },
+  "theme": {
+    "mestaMiesta": "cities & places",
+    "architektura": "architecture",
+    "historia": "history",
+    "priroda": "nature",
+    "minimalisticke": "minimalist",
+    "osobnosti": "personalities",
+    "sTextom": "typographic",
+    "abstraktne": "abstract"
   }
 }
