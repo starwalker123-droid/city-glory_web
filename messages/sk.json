@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "oblecenie": "oblečenie",
+    "doplnky": "doplnky",
+    "spoznavanie": "spoznávanie",
+    "capsula": "capsula",
+    "viral": "viral",
+    "spravy": "správy",
+    "sprievodcovia": "sprievodcovia",
+    "preFirmy": "pre firmy",
+    "kontakt": "kontakt+"
+  },
+  "common": {
+    "search": "hľadať",
+    "account": "účet",
+    "wishlist": "obľúbené",
+    "cart": "košík",
+    "language": "jazyk",
+    "menu": "menu",
+    "close": "zavrieť",
+    "discover": "objavovať",
+    "shop": "nakupovať",
+    "doplnujuceInfo": "doplňujúce informácie",
+    "addToCart": "pridať do košíka",
+    "from": "od",
+    "viewAll": "zobraziť všetko"
+  },
+  "announcement": {
+    "default": "limitovaná kolekcia práve v predaji"
+  },
+  "home": {
+    "heroHeading": "každé mesto má svoj príbeh",
+    "heroSubtitle": "príbehy, miesta a atmosféru miest premieňame na krásne, zberateľské predmety.",
+    "featuredTitle": "vybrané kúsky",
+    "featuredSubtitle": "naprieč všetkými kategóriami — nielen bestsellery"
+  },
+  "footer": {
+    "tagline": "príbehy miest premieňame na krásne predmety.",
+    "shop": "obchod",
+    "discover": "spoznávanie",
+    "about": "o nás",
+    "legal": "informácie",
+    "faq": "časté otázky",
+    "terms": "obchodné podmienky",
+    "complaints": "reklamačný poriadok",
+    "shipping": "doprava a platba",
+    "gdpr": "ochrana osobných údajov",
+    "cookies": "cookies",
+    "contact": "kontakt",
+    "newsletter": "newsletter",
+    "rights": "Všetky práva vyhradené."
+  },
+  "newsletter": {
+    "heading": "buďte pri tom prví",
+    "subtitle": "skoršie prístupy, limitované edície a príbehy miest priamo do vašej schránky.",
+    "placeholder": "váš e-mail",
+    "submit": "prihlásiť sa"
+  }
+}

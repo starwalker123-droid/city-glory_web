@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "oblecenie": "clothing",
+    "doplnky": "accessories",
+    "spoznavanie": "discover",
+    "capsula": "capsula",
+    "viral": "viral",
+    "spravy": "stories",
+    "sprievodcovia": "guides",
+    "preFirmy": "for business",
+    "kontakt": "contact+"
+  },
+  "common": {
+    "search": "search",
+    "account": "account",
+    "wishlist": "wishlist",
+    "cart": "cart",
+    "language": "language",
+    "menu": "menu",
+    "close": "close",
+    "discover": "discover",
+    "shop": "shop",
+    "doplnujuceInfo": "additional information",
+    "addToCart": "add to cart",
+    "from": "from",
+    "viewAll": "view all"
+  },
+  "announcement": {
+    "default": "limited collection now available"
+  },
+  "home": {
+    "heroHeading": "every city has a story",
+    "heroSubtitle": "we turn the stories, places and atmosphere of cities into beautiful, collectible objects.",
+    "featuredTitle": "featured pieces",
+    "featuredSubtitle": "across every category — not just bestsellers"
+  },
+  "footer": {
+    "tagline": "we turn city stories into beautiful objects.",
+    "shop": "shop",
+    "discover": "discover",
+    "about": "about",
+    "legal": "information",
+    "faq": "faq",
+    "terms": "terms & conditions",
+    "complaints": "complaints policy",
+    "shipping": "shipping & payment",
+    "gdpr": "privacy policy",
+    "cookies": "cookies",
+    "contact": "contact",
+    "newsletter": "newsletter",
+    "rights": "All rights reserved."
+  },
+  "newsletter": {
+    "heading": "be the first to know",
+    "subtitle": "early access, limited editions and city stories — straight to your inbox.",
+    "placeholder": "your email",
+    "submit": "subscribe"
+  }
+}
