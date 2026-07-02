@@ -1,16 +1,27 @@
 import { useTranslations } from "next-intl";
 
 /**
- * Slim announcement bar. Static copy for now; will be driven by the CMS
- * (rotating messages) in a later phase.
+ * Slim stacked announcement bars (per the original sketch). Static copy for
+ * now; will be driven by the CMS (rotating messages) in a later phase.
+ * Colors follow token semantics: lilac = artist/capsula, sky = brand accent.
  */
+const bars = [
+  { key: "limited", className: "bg-ink text-cream" },
+  { key: "collab", className: "bg-lilac text-ink" },
+  { key: "preorder", className: "bg-sky text-ink" },
+] as const;
+
 export function AnnouncementBar() {
   const t = useTranslations("announcement");
   return (
-    <div className="bg-ink text-cream">
-      <p className="mx-auto max-w-7xl px-4 py-2 text-center text-xs tracking-wide">
-        {t("default")}
-      </p>
-    </div>
+    <>
+      {bars.map(({ key, className }) => (
+        <div key={key} className={className}>
+          <p className="mx-auto max-w-7xl px-4 py-1.5 text-center text-xs tracking-wide">
+            {t(key)}
+          </p>
+        </div>
+      ))}
+    </>
   );
 }

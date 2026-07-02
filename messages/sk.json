@@ -26,7 +26,9 @@
     "viewAll": "zobraziť všetko"
   },
   "announcement": {
-    "default": "limitovaná kolekcia práve v predaji"
+    "limited": "limitovaná kolekcia práve v predaji",
+    "collab": "nová spolupráca s umelcom",
+    "preorder": "predobjednávky otvorené"
   },
   "home": {
     "heroEyebrow": "kultúrny obchod",

@@ -26,7 +26,9 @@
     "viewAll": "view all"
   },
   "announcement": {
-    "default": "limited collection now available"
+    "limited": "limited collection now available",
+    "collab": "new artist collaboration",
+    "preorder": "pre-orders now open"
   },
   "home": {
     "heroEyebrow": "cultural store",
