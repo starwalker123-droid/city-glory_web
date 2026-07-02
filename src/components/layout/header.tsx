@@ -5,13 +5,25 @@ import { useTranslations } from "next-intl";
 import { Search, User, Heart, ShoppingBag, Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { mainNav } from "@/config/navigation";
+import { categoriesByParent } from "@/config/catalog";
+import { clothingIcons } from "@/components/icons/apparel";
 import { Logo } from "./logo";
 import { LanguageSwitcher } from "./language-switcher";
+import { NavDropdown } from "./nav-dropdown";
 
 export function Header() {
   const t = useTranslations("nav");
   const tc = useTranslations("common");
+  const tCat = useTranslations("category");
   const [open, setOpen] = useState(false);
+
+  // Clothing sub-categories shown in the "oblečenie" hover dropdown.
+  const clothingItems = categoriesByParent("oblecenie").map((c) => ({
+    key: c.key,
+    href: `/${c.slug}`,
+    label: tCat(c.key),
+    Icon: clothingIcons[c.key],
+  }));
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-cream/85 backdrop-blur">
@@ -32,15 +44,24 @@ export function Header() {
 
         {/* Center: desktop nav */}
         <nav className="hidden items-center gap-6 lg:flex">
-          {mainNav.map((item) => (
-            <Link
-              key={item.key}
-              href={item.href}
-              className="text-sm text-ink/80 transition-colors hover:text-ink"
-            >
-              {t(item.key)}
-            </Link>
-          ))}
+          {mainNav.map((item) =>
+            item.key === "oblecenie" ? (
+              <NavDropdown
+                key={item.key}
+                label={t(item.key)}
+                href={item.href}
+                items={clothingItems}
+              />
+            ) : (
+              <Link
+                key={item.key}
+                href={item.href}
+                className="text-sm text-ink/80 transition-colors hover:text-ink"
+              >
+                {t(item.key)}
+              </Link>
+            ),
+          )}
         </nav>
 
         {/* Right: utilities */}

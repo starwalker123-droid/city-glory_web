@@ -8,8 +8,6 @@ export const mainNav = [
   { key: "spoznavanie", href: "/spoznavanie" },
   { key: "capsula", href: "/capsula" },
   { key: "viral", href: "/viral" },
-  { key: "spravy", href: "/spravy" },
-  { key: "sprievodcovia", href: "/sprievodcovia" },
   { key: "preFirmy", href: "/pre-firmy" },
   { key: "kontakt", href: "/kontakt" },
 ] as const;
