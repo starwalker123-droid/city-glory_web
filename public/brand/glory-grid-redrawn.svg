@@ -1,0 +1,433 @@
+<svg width="1500" height="1060" viewBox="0 0 1500 1060" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ggTitle">
+  <title id="ggTitle">City Glory — Glory Grid icon system, Bratislava</title>
+  <defs>
+    <pattern id="g9" width="9.375" height="9.375" patternUnits="userSpaceOnUse">
+      <path d="M9.375 0H0V9.375" fill="none" stroke="#ECE5D8" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="g20" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#E9E2D4" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; fill: #141414; }
+    .s { font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #1c1c1c; }
+    .b { font-weight: 700; }
+    .m { font-weight: 500; }
+    .sub { fill: #6f6a60; font-weight: 500; }
+    .ic { stroke: #1c1c1c; stroke-width: 2.4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .fl { fill: #1c1c1c; stroke: none; }
+    .box { fill: url(#g9); stroke: #DAD2C4; stroke-width: 1; }
+    .gd { stroke: #1c1c1c; fill: none; }
+    .lt { stroke: #C9C0AF; fill: none; }
+    .dash { stroke: #4a463e; stroke-width: 1; stroke-dasharray: 5 4; fill: none; }
+  </style>
+
+  <rect width="1500" height="1060" fill="#FBF6ED"/>
+
+  <!-- ============ HEADER ============ -->
+  <!-- logo mark -->
+  <g class="ic" transform="translate(45,40)" stroke-width="2.2">
+    <path d="M2 38 V4 H14 V10 H22 V4 H34 V10 H42 V4 H54 V38 H2 Z"/>
+    <path d="M16 17 H23 V24 H16 Z M33 17 H40 V24 H33 Z M16 27 H23 V34 H16 Z M33 27 H40 V34 H33 Z"/>
+    <path d="M2 47 Q8.5 42 15 47 Q21.5 52 28 47 Q34.5 42 41 47 Q47.5 52 54 47"/>
+  </g>
+  <text class="serif" x="128" y="98" font-size="60">Glory Grid</text>
+  <text class="s b" x="130" y="138" font-size="12.5" letter-spacing="3">ONE GRID.  MANY LANDMARKS.  ONE CITY.</text>
+
+  <line x1="575" y1="44" x2="575" y2="168" stroke="#1c1c1c" stroke-width="1"/>
+
+  <text class="s m" x="612" y="72" font-size="15" fill="#33302a">All City Glory icons are built from the</text>
+  <text class="s m" x="612" y="96" font-size="15" fill="#33302a">same modular grid. A shared geometric</text>
+  <text class="s m" x="612" y="120" font-size="15" fill="#33302a">language creates a coherent, timeless</text>
+  <text class="s m" x="612" y="144" font-size="15" fill="#33302a">family of symbols for Bratislava.</text>
+
+  <!-- steps -->
+  <g transform="translate(1020,48)">
+    <rect x="0" y="0" width="66" height="66" class="box" stroke="#1c1c1c" stroke-width="1.2"/>
+    <text class="s b" x="33" y="96" font-size="10" letter-spacing="1.4" text-anchor="middle">1. MASTER GRID</text>
+    <g class="gd" stroke-width="1.5"><path d="M84 33 H116 M116 33 l-7 -4.5 M116 33 l-7 4.5"/></g>
+    <rect x="132" y="0" width="66" height="66" class="box" stroke="#1c1c1c" stroke-width="1.2"/>
+    <circle cx="165" cy="33" r="20" class="lt" stroke-dasharray="3 3"/>
+    <path d="M138 60 L192 6" class="lt" stroke-width="0.8"/>
+    <g class="ic" stroke-width="1.8"><path d="M146 56 V30 H184 V56 M150 30 L165 12 L180 30"/></g>
+    <text class="s b" x="165" y="96" font-size="10" letter-spacing="1.4" text-anchor="middle">2. BUILD</text>
+    <g class="gd" stroke-width="1.5"><path d="M216 33 H248 M248 33 l-7 -4.5 M248 33 l-7 4.5"/></g>
+    <g class="ic" stroke-width="1.8" transform="translate(264,0)">
+      <path d="M14 64 V54 H52 V64"/>
+      <path d="M26 64 V58 A7 7 0 0 1 40 58 V64"/>
+      <path d="M20 54 V26 H46 V54"/>
+      <path d="M17 26 H49"/>
+      <path d="M18 26 C22 12 30 15 33 6 C36 15 44 12 48 26"/>
+      <path d="M33 6 V1"/>
+      <circle cx="33" cy="40" r="4.5"/>
+    </g>
+    <text class="s b" x="297" y="96" font-size="10" letter-spacing="1.4" text-anchor="middle">3. ICON FAMILY</text>
+  </g>
+
+  <!-- ============ LEFT: MASTER GRID ============ -->
+  <text class="s b" x="45" y="232" font-size="15" letter-spacing="2.4">MASTER GRID</text>
+
+  <text class="s b" x="205" y="249" font-size="10" letter-spacing="2" text-anchor="middle">16 MODULES</text>
+  <g class="gd" stroke-width="1">
+    <path d="M45 256 H365 M45 256 l6 -3.5 M45 256 l6 3.5 M365 256 l-6 -3.5 M365 256 l-6 3.5"/>
+    <path d="M31 268 V588 M31 268 l-3.5 6 M31 268 l3.5 6 M31 588 l-3.5 -6 M31 588 l3.5 -6"/>
+  </g>
+  <text class="s b" font-size="10" letter-spacing="2" text-anchor="middle" transform="rotate(-90 22 428)" x="22" y="428">16 MODULES</text>
+
+  <rect x="45" y="268" width="320" height="320" fill="url(#g20)" stroke="#1c1c1c" stroke-width="1.2"/>
+  <g class="gd" stroke-width="1">
+    <circle cx="205" cy="428" r="145"/>
+    <circle cx="205" cy="428" r="58"/>
+    <path d="M45 268 L365 588 M365 268 L45 588"/>
+  </g>
+  <g class="dash">
+    <path d="M45 348 H365 M45 428 H365 M45 508 H365"/>
+    <path d="M365 268 H400 M365 348 H400 M365 428 H400 M365 508 H400 M365 588 H400"/>
+  </g>
+  <g class="s b" font-size="9" letter-spacing="1" fill="#3a372f">
+    <text x="404" y="271">TOP LINE</text>
+    <text x="404" y="351">UPPER BASELINE</text>
+    <text x="404" y="431">MIDLINE</text>
+    <text x="404" y="511">LOWER BASELINE</text>
+    <text x="404" y="591">BOTTOM LINE</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="45" y="622" width="14" height="14" fill="none" stroke="#1c1c1c" stroke-width="1.5"/>
+  <text class="s b" x="72" y="634" font-size="10.5" letter-spacing="1.2">=  1 MODULE</text>
+
+  <rect x="45" y="660" width="30" height="30" fill="none" stroke="#1c1c1c" stroke-width="1.2"/>
+  <path d="M55 660 V690 M65 660 V690 M45 670 H75 M45 680 H75" stroke="#1c1c1c" stroke-width="0.8"/>
+  <text class="s b" x="92" y="672" font-size="10.5" letter-spacing="1.2">MODULAR GRID</text>
+  <text class="s sub" x="92" y="688" font-size="10">All icons align to a 16×16 module grid.</text>
+
+  <circle cx="60" cy="725" r="15" fill="none" stroke="#1c1c1c" stroke-width="1.5"/>
+  <text class="s b" x="92" y="722" font-size="10.5" letter-spacing="1.2">CIRCLES</text>
+  <text class="s sub" x="92" y="738" font-size="10">For arches, domes and organic flows.</text>
+
+  <path d="M46 782 L74 754" stroke="#1c1c1c" stroke-width="1.8"/>
+  <text class="s b" x="92" y="772" font-size="10.5" letter-spacing="1.2">DIAGONALS</text>
+  <text class="s sub" x="92" y="788" font-size="10">For roofs, towers and dynamic forms.</text>
+
+  <path d="M45 816 H75" stroke="#1c1c1c" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <text class="s b" x="92" y="820" font-size="10.5" letter-spacing="1.2">BASELINES</text>
+  <text class="s sub" x="92" y="836" font-size="10">Ensure consistent alignment and rhythm.</text>
+
+  <line x1="505" y1="220" x2="505" y2="950" stroke="#1c1c1c" stroke-width="0.8"/>
+
+  <!-- ============ RIGHT: ICON FAMILY ============ -->
+  <text class="s b" x="545" y="232" font-size="15" letter-spacing="2.4">ICON FAMILY</text>
+
+  <!-- ~~~~ ROW 1 ~~~~ -->
+  <!-- Bratislava Castle -->
+  <g transform="translate(545,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M14 130 H136" stroke-width="2.8"/>
+      <path d="M22 130 V112 L75 104 L128 112 V130"/>
+      <path d="M67 130 V116 A8 8 0 0 1 83 116 V130"/>
+      <path d="M34 104 V64 H116 V104"/>
+      <path d="M30 64 L44 52 H106 L120 64 Z"/>
+      <path d="M70 52 V42 H80 V52 M68 42 L75 35 L82 42"/>
+      <path d="M22 112 V56 H40 V112"/>
+      <path d="M20 56 H42 M20 60 H42"/>
+      <path d="M20 56 L31 38 L42 56 M31 38 V32"/>
+      <path d="M110 112 V56 H128 V112"/>
+      <path d="M108 56 H130 M108 60 H130"/>
+      <path d="M108 56 L119 38 L130 56 M119 38 V32"/>
+      <path d="M45 70 H50 V81 H45 Z M59 70 H64 V81 H59 Z M73 70 H78 V81 H73 Z M87 70 H92 V81 H87 Z M101 70 H106 V81 H101 Z" stroke-width="1.8"/>
+      <path d="M45 87 H50 V98 H45 Z M59 87 H64 V98 H59 Z M73 87 H78 V98 H73 Z M87 87 H92 V98 H87 Z M101 87 H106 V98 H101 Z" stroke-width="1.8"/>
+    </g>
+    <rect x="29" y="66" width="4.5" height="6" class="fl"/>
+    <rect x="29" y="80" width="4.5" height="6" class="fl"/>
+    <rect x="117" y="66" width="4.5" height="6" class="fl"/>
+    <rect x="117" y="80" width="4.5" height="6" class="fl"/>
+    <rect x="72.8" y="106.5" width="4.5" height="4.5" class="fl"/>
+  </g>
+  <!-- UFO Bridge — outlined pylon legs, two cables per side -->
+  <g transform="translate(735,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M10 116 H140 M10 122 H140"/>
+      <path d="M14 128 H26 M69 128 H81 M124 128 H136" stroke-width="2"/>
+      <path d="M66 52 L52 116 H62 L72 54 Z"/>
+      <path d="M84 52 L98 116 H88 L78 54 Z"/>
+      <path d="M58 50 L18 116 M64 52 L40 116"/>
+      <path d="M92 50 L132 116 M86 52 L110 116"/>
+      <ellipse cx="75" cy="42" rx="26" ry="8"/>
+      <path d="M52 45.5 Q75 53 98 45.5"/>
+      <path d="M63 34 H87 V27 H63 Z M63 30.5 H87" stroke-width="2"/>
+      <path d="M69 27 V18 M66.5 18 H71.5 M81 27 V18 M78.5 18 H83.5" stroke-width="2"/>
+    </g>
+  </g>
+  <!-- Kamzík — elongated diamond silhouette (new, approved) -->
+  <g transform="translate(925,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M12 134 C34 126 58 129 82 131 C104 133 124 133 138 132"/>
+      <path d="M40 131 V121 H60 V131 M92 131 V119 H112 V131"/>
+      <path d="M66 131 L52 90 M84 131 L98 90"/>
+      <path d="M52 90 H98 M54 96 H96 M58 104 H92"/>
+      <path d="M52 90 L55 84 M98 90 L95 84 M55 84 H95"/>
+      <path d="M55 84 L75 26 M95 84 L75 26"/>
+      <path d="M62 64 H88 M68 46 H82"/>
+      <path d="M75 26 V8 M73 15 H77"/>
+    </g>
+  </g>
+  <!-- Slovak Radio — trussed inverted pyramid -->
+  <g transform="translate(1115,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M28 48 H122 M28 54 H122"/>
+      <path d="M28 54 L68 112 M122 54 L82 112 M68 112 H82"/>
+      <path d="M35 64 H115 M42 74 H108 M49 84 H101 M56 94 H94 M62 104 H88" stroke-width="2"/>
+      <path d="M75 54 V112" stroke-width="2"/>
+      <path d="M28 54 L82 112 M122 54 L68 112" stroke-width="2"/>
+      <path d="M58 48 V40 H92 V48"/>
+      <path d="M64 40 V26 H86 V40"/>
+      <path d="M69 37 V28 H82 V37 H73 V31 H79 V34.5" stroke-width="1.8"/>
+      <path d="M75 26 V14"/>
+      <path d="M68 112 L62 128 M82 112 L88 128 M48 128 H102"/>
+    </g>
+  </g>
+  <!-- Michael's Gate — two-stage tower with bell dome -->
+  <g transform="translate(1305,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M30 132 H120" stroke-width="2.8"/>
+      <path d="M38 132 V96 H112 V132"/>
+      <path d="M60 132 V116 C60 106 67 102 75 102 C83 102 90 106 90 116 V132"/>
+      <path d="M56 96 V59 H94 V96"/>
+      <path d="M72.5 66 H77.5 V75 H72.5 Z M72.5 80 H77.5 V89 H72.5 Z" stroke-width="1.8"/>
+      <path d="M52 59 H98 M54 54 H96"/>
+      <path d="M58 54 L62 32 H88 L92 54"/>
+      <path d="M62 32 C62 23 68 20 75 20 C82 20 88 23 88 32"/>
+      <circle cx="75" cy="16.5" r="3"/>
+      <path d="M75 13.5 V5.5 M71.5 9 H78.5" stroke-width="2"/>
+    </g>
+    <rect x="72.7" y="97.2" width="4.6" height="4.6" class="fl"/>
+    <rect x="73" y="40" width="4" height="6" class="fl"/>
+  </g>
+
+  <!-- ~~~~ ROW 2 ~~~~ -->
+  <!-- Tram — with route box and splayed rails -->
+  <g transform="translate(545,470)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M28 136 H122" stroke-width="2"/>
+      <path d="M60 132 L42 146 M90 132 L108 146" stroke-width="2"/>
+      <path d="M46 130 V72 Q46 60 58 60 H92 Q104 60 104 72 V130 Z"/>
+      <path d="M46 78 H104"/>
+      <path d="M67 66 H83 V72 H67 Z" stroke-width="1.8"/>
+      <path d="M54 78 H96 V106 H54 Z"/>
+      <path d="M46 110 H104"/>
+      <circle cx="62" cy="120" r="5"/>
+      <circle cx="88" cy="120" r="5"/>
+      <path d="M75 60 V52 M75 52 L58 42 L75 32 L92 42 Z"/>
+    </g>
+    <circle cx="75" cy="120" r="1.8" class="fl"/>
+  </g>
+  <!-- Blue Church — domed tower, volute gable, side chapel -->
+  <g transform="translate(735,470)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M14 132 H136" stroke-width="2.8"/>
+      <path d="M24 132 V58 M46 132 V58"/>
+      <path d="M22 124 H48" stroke-width="2"/>
+      <path d="M31 74 V65 A4 4 0 0 1 39 65 V74 Z" stroke-width="1.8"/>
+      <circle cx="35" cy="84" r="2.2" stroke-width="1.8"/>
+      <path d="M31 108 V96 A4 4 0 0 1 39 96 V108 Z" stroke-width="1.8"/>
+      <path d="M22 58 H48 M24 53 H46"/>
+      <path d="M24 53 C24 42 30 37 35 37 C40 37 46 42 46 53"/>
+      <circle cx="35" cy="33.5" r="2.5"/>
+      <path d="M35 31 V23 M31.5 26.5 H38.5" stroke-width="2"/>
+      <path d="M46 132 V92 M112 132 V92"/>
+      <path d="M48 92 H110"/>
+      <path d="M61 92 C61 78 66 70 73 64 Q79 59 85 64 C92 70 97 78 97 92"/>
+      <path d="M61 88 H56 V92 M97 88 H102 V92"/>
+      <circle cx="79" cy="78" r="5.5"/>
+      <path d="M79 59 V49 M75 53 H83" stroke-width="2"/>
+      <path d="M51 122 V110 A5 5 0 0 1 61 110 V122 Z" stroke-width="1.8"/>
+      <path d="M71 132 V112 A8 8 0 0 1 87 112 V132"/>
+      <path d="M97 122 V110 A5 5 0 0 1 107 110 V122 Z" stroke-width="1.8"/>
+      <path d="M112 104 H134 M134 132 V104"/>
+      <path d="M118 104 C118 96 121.5 92.5 124.5 92.5 C127.5 92.5 131 96 131 104"/>
+      <path d="M124.5 90 V84 M121.5 87 H127.5" stroke-width="1.8"/>
+      <path d="M119 132 V118 A5.5 5.5 0 0 1 130 118 V132" stroke-width="1.8"/>
+    </g>
+    <circle cx="124.5" cy="108" r="1.8" class="fl"/>
+  </g>
+  <!-- Coronation Crown — St Stephen's crown -->
+  <g transform="translate(925,470)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M40 112 H110 V126 H40 Z"/>
+      <path d="M40 112 C34 102 36 94 44 89 M44 89 L41 83 M44 89 C50 94 52 102 53 112"/>
+      <path d="M110 112 C116 102 114 94 106 89 M106 89 L109 83 M106 89 C100 94 98 102 97 112"/>
+      <circle cx="56" cy="102" r="7"/>
+      <circle cx="75" cy="98" r="7"/>
+      <circle cx="94" cy="102" r="7"/>
+      <path d="M44 96 C48 70 62 58 73 55 M48 99 C52 74 64 62 73 60"/>
+      <path d="M106 96 C102 70 88 58 77 55 M102 99 C98 74 86 62 77 60"/>
+      <path d="M71 55 V95 M79 55 V95"/>
+      <circle cx="75" cy="49" r="4.5"/>
+      <path d="M75 44 V29 M68.5 35.5 H81.5" stroke-width="3.2"/>
+    </g>
+    <circle cx="56" cy="102" r="2" class="fl"/>
+    <circle cx="75" cy="98" r="2" class="fl"/>
+    <circle cx="94" cy="102" r="2" class="fl"/>
+    <circle cx="48" cy="119" r="1.7" class="fl"/>
+    <circle cx="61.5" cy="119" r="1.7" class="fl"/>
+    <circle cx="75" cy="119" r="1.7" class="fl"/>
+    <circle cx="88.5" cy="119" r="1.7" class="fl"/>
+    <circle cx="102" cy="119" r="1.7" class="fl"/>
+  </g>
+  <!-- Danube — organic waves -->
+  <g transform="translate(1115,470)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic" stroke-width="2.8">
+      <path d="M24 62 C34 54 44 54 54 60 C66 67 78 67 88 61 C98 55 110 55 122 63"/>
+      <path d="M20 80 C32 72 44 72 55 79 C67 86 80 86 91 80 C102 74 114 74 126 81"/>
+      <path d="M24 98 C36 90 47 90 58 97 C70 104 82 104 93 98 C104 92 114 92 124 99"/>
+      <path d="M28 116 C40 108 51 108 62 115 C73 121 85 121 96 116 C106 111 114 111 121 116"/>
+    </g>
+  </g>
+  <!-- Devín Castle — stepped ruin on crag -->
+  <g transform="translate(1305,470)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M32 100 H128" stroke-width="2"/>
+      <path d="M36 100 V44 H56 V62 H72 V56 H78 V62 H94 V70 H108 V64 H112 V74 H124 V100"/>
+      <path d="M74 56 V48 H80 V56" stroke-width="2"/>
+      <path d="M42 100 V90 A4.5 4.5 0 0 1 51 90 V100" stroke-width="2"/>
+      <path d="M43 62 H48 V71 H43 Z" stroke-width="1.8"/>
+      <path d="M20 118 L32 100 M20 118 L14 138" stroke-width="2.8"/>
+      <path d="M44 102 L36 126 M38 132 L40 142" stroke-width="2.8"/>
+      <path d="M70 100 L65 116 M67 124 L72 142" stroke-width="2.8"/>
+      <path d="M96 100 L98 118 L92 134" stroke-width="2.8"/>
+      <path d="M110 100 L120 116 L118 142" stroke-width="2.8"/>
+    </g>
+    <rect x="43" y="50" width="5" height="6" class="fl"/>
+    <rect x="60" y="66" width="4.5" height="5.5" class="fl"/>
+    <rect x="68" y="66" width="4.5" height="5.5" class="fl"/>
+    <rect x="76" y="66" width="4.5" height="5.5" class="fl"/>
+    <rect x="84" y="66" width="4.5" height="5.5" class="fl"/>
+    <rect x="98" y="76" width="4.5" height="5.5" class="fl"/>
+  </g>
+
+  <!-- ~~~~ ROW 3 ~~~~ -->
+  <!-- Sad Janka Kráľa — original trees & bench + the Gothic Franciscan tower -->
+  <g transform="translate(545,682)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M14 128 H136"/>
+      <path d="M14 137 H136" stroke-width="3"/>
+      <path d="M20 128 Q24 124 28 128 M52 128 Q56 124 60 128 M94 128 Q98 124 102 128" stroke-width="2"/>
+      <path d="M34 128 V98 M34 108 L27 101 M34 108 L41 101"/>
+      <path d="M20 84 A14 13 0 0 1 25 61 A13 12 0 0 1 42 57 A12 12 0 0 1 52 70 A12 12 0 0 1 47 89 A16 15 0 0 1 20 84 Z"/>
+      <path d="M13.5 115 H33.5 M16 115 V128 M31 115 V128 M16 115 V102 M31 115 V102 M14 104 H33 M14 109 H33" stroke-width="2"/>
+      <path d="M108 128 V76 M108 88 L100 79 M108 88 L116 79 M108 100 L101 93"/>
+      <path d="M86 62 A15 15 0 0 1 92 40 A14 14 0 0 1 109 32 A14 14 0 0 1 124 44 A13 13 0 0 1 126 62 A15 15 0 0 1 107 72 A17 17 0 0 1 86 62 Z"/>
+      <circle cx="129" cy="118" r="8"/>
+      <path d="M129 126 V128" stroke-width="2"/>
+      <path d="M60 128 V92 M74 128 V96 M88 128 V92"/>
+      <path d="M62.5 128 V104 L68 96 L73 104 V128" stroke-width="2"/>
+      <path d="M76 128 V104 L81.5 96 L87 104 V128" stroke-width="2"/>
+      <path d="M58 92 H90 M60 88 H88"/>
+      <path d="M62 88 L68 80 L74 88 M76 88 L81.5 80 L87 88" stroke-width="2"/>
+      <path d="M59 88 V78 M57.8 78 L59 74 L60.2 78 M89 88 V78 M87.8 78 L89 74 L90.2 78" stroke-width="1.8"/>
+      <path d="M62 84 C62 64 67 50 74 42 M86 84 C86 64 81 50 74 42"/>
+      <path d="M71 44 Q74 39 77 44 M74 39 V33" stroke-width="2"/>
+      <path d="M65 62 H83" stroke-width="1.8"/>
+      <path d="M74 54 V47" stroke-width="1.8"/>
+    </g>
+  </g>
+  <!-- Old Market Hall — volute gable, wings and end pavilions -->
+  <g transform="translate(735,682)">
+    <rect width="230" height="150" class="box"/>
+    <g class="ic">
+      <path d="M14 132 H216" stroke-width="2.8"/>
+      <path d="M24 132 V78 H44 V132"/>
+      <path d="M22 78 L34 70 L46 78 M34 70 V65"/>
+      <path d="M44 88 H92 M44 94 H92"/>
+      <path d="M59 124 V107 A8 8 0 0 1 75 107 V124 Z"/>
+      <path d="M92 132 V74 M138 132 V74 M88 74 H142"/>
+      <path d="M96 132 V80 M134 132 V80" stroke-width="1.8"/>
+      <path d="M100 132 V102 A15 15 0 0 1 130 102 V132"/>
+      <path d="M106 132 V106 A9.5 9.5 0 0 1 125 106 V132" stroke-width="2"/>
+      <path d="M96 74 C96 60 102 52 110 48 Q115 45 120 48 C128 52 134 60 134 74"/>
+      <path d="M96 68 H88 V74 M134 68 H142 V74"/>
+      <path d="M110 66 V58 A5 5 0 0 1 120 58 V66 Z" stroke-width="1.8"/>
+      <path d="M115 44 V28"/>
+      <circle cx="115" cy="26" r="2"/>
+      <path d="M138 88 H186 M138 94 H186"/>
+      <path d="M155 124 V107 A8 8 0 0 1 171 107 V124 Z"/>
+      <path d="M186 132 V78 H206 V132"/>
+      <path d="M184 78 L196 70 L208 78 M196 70 V65"/>
+    </g>
+  </g>
+  <!-- Družba Fountain — curled jet, dish on stepped base -->
+  <g transform="translate(1005,682)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic">
+      <path d="M12 138 H138" stroke-width="2.8"/>
+      <path d="M20 138 V128 H130 V138"/>
+      <path d="M26 128 V120 H124 V128"/>
+      <path d="M26 120 L31 114 H119 L124 120"/>
+      <path d="M66 114 V105 M84 114 V105"/>
+      <path d="M38 88 H112 M38 88 V93 M112 88 V93"/>
+      <path d="M38 93 C50 101 60 103 66 105 M112 93 C100 101 90 103 84 105"/>
+      <path d="M72 88 C72 60 73.5 42 75 34 C76.5 42 78 60 78 88"/>
+      <path d="M75 33 C70 26 63 27 61 34 M75 33 C80 26 87 27 89 34" stroke-width="2.6"/>
+      <path d="M70 90 C56 62 44 62 41 88 M70 92 C60 70 50 70 47 90" stroke-width="2.6"/>
+      <path d="M80 90 C94 62 106 62 109 88 M80 92 C90 70 100 70 103 90" stroke-width="2.6"/>
+    </g>
+  </g>
+  <!-- Bratislava Houses — steep gables, varied attic windows -->
+  <g transform="translate(1195,682)">
+    <rect width="230" height="150" class="box"/>
+    <g class="ic">
+      <path d="M14 132 H216" stroke-width="2.8"/>
+      <path d="M24 132 V77 M72 132 V79 M120 132 V81 M168 132 V75 M216 132 V75"/>
+      <path d="M21 77 L48 46 L75 77"/>
+      <path d="M69 79 L96 50 L123 79"/>
+      <path d="M117 81 L144 54 L171 81"/>
+      <path d="M165 75 L192 44 L217 75"/>
+      <path d="M45 58 H51 V67 H45 Z" stroke-width="1.8"/>
+      <path d="M93 62 H99 V71 H93 Z" stroke-width="1.8"/>
+      <path d="M141 70 V65 A3 3 0 0 1 147 65 V70 Z" stroke-width="1.8"/>
+      <circle cx="192" cy="58" r="4" stroke-width="1.8"/>
+      <path d="M33 88 H42 V99 H33 Z M54 88 H63 V99 H54 Z M33 110 H42 V121 H33 Z M54 110 H63 V121 H54 Z" stroke-width="1.8"/>
+      <path d="M81 90 H90 V101 H81 Z M102 90 H111 V101 H102 Z M81 112 H90 V123 H81 Z" stroke-width="1.8"/>
+      <path d="M100 132 V121 A5.5 5.5 0 0 1 111 121 V132" stroke-width="2"/>
+      <path d="M129 92 H138 V103 H129 Z M150 92 H159 V103 H150 Z M150 114 H159 V125 H150 Z" stroke-width="1.8"/>
+      <path d="M127 132 V121 A5.5 5.5 0 0 1 138 121 V132" stroke-width="2"/>
+      <path d="M177 88 H186 V99 H177 Z M198 88 H207 V99 H198 Z M177 112 H186 V123 H177 Z" stroke-width="1.8"/>
+      <path d="M197 132 V121 A5.5 5.5 0 0 1 208 121 V132" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g class="s b" font-size="11.5" letter-spacing="1.6" text-anchor="middle">
+    <text x="620" y="434">BRATISLAVA CASTLE</text>
+    <text x="810" y="434">UFO BRIDGE</text>
+    <text x="1000" y="434">KAMZÍK TV TOWER</text>
+    <text x="1190" y="434">SLOVAK RADIO</text>
+    <text x="1380" y="434">MICHAEL'S GATE</text>
+    <text x="620" y="646">TRAM</text>
+    <text x="810" y="646">BLUE CHURCH</text>
+    <text x="1000" y="646">CORONATION CROWN</text>
+    <text x="1190" y="646">DANUBE</text>
+    <text x="1380" y="646">DEVÍN CASTLE</text>
+    <text x="620" y="858">SAD JANKA KRÁĽA</text>
+    <text x="850" y="858">OLD MARKET HALL / TRŽNICA</text>
+    <text x="1080" y="858">DRUŽBA FOUNTAIN</text>
+    <text x="1310" y="858">BRATISLAVA HOUSES</text>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="45" y1="990" x2="1455" y2="990" stroke="#1c1c1c" stroke-width="1"/>
+  <text class="s b" x="45" y="1020" font-size="12" letter-spacing="2.6">CITY GLORY SYSTEM</text>
+  <text class="s b" x="1414" y="1020" font-size="12" letter-spacing="2.6" text-anchor="end">BRATISLAVA</text>
+  <path d="M1436 1021 C1433 1017 1424 1013 1424 1006.5 C1424 1002 1427.5 999.5 1431 1000.5 C1433.5 1001.2 1435.3 1003 1436 1004.5 C1436.7 1003 1438.5 1001.2 1441 1000.5 C1444.5 999.5 1448 1002 1448 1006.5 C1448 1013 1439 1017 1436 1021 Z" fill="none" stroke="#1c1c1c" stroke-width="1.6"/>
+</svg>

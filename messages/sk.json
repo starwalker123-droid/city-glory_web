@@ -2,7 +2,7 @@
   "nav": {
     "oblecenie": "oblečenie",
     "doplnky": "doplnky",
-    "spoznavanie": "spoznávanie",
+    "clanky": "články",
     "capsula": "capsula",
     "viral": "viral",
     "spravy": "správy",
@@ -16,6 +16,8 @@
     "wishlist": "obľúbené",
     "cart": "košík",
     "language": "jazyk",
+    "switchToEnglish": "prepnúť na anglickú verziu",
+    "switchToSlovak": "prepnúť na slovenskú verziu",
     "menu": "menu",
     "close": "zavrieť",
     "discover": "objavovať",
@@ -26,15 +28,19 @@
     "viewAll": "zobraziť všetko"
   },
   "announcement": {
-    "limited": "limitovaná kolekcia práve v predaji",
-    "collab": "nová spolupráca s umelcom",
-    "preorder": "predobjednávky otvorené"
+    "limited": "limitovaný print Hrad v predaji od 29.9.2026",
+    "promo": "akcia trička od 20.11.2026",
+    "preorder": "predobjednávky otvorené",
+    "previous": "predchádzajúci oznam",
+    "next": "ďalší oznam",
+    "goTo": "prejsť na oznam {number}"
   },
   "home": {
     "heroEyebrow": "kultúrny obchod",
     "heroHeading": "každé mesto má svoj príbeh",
     "heroSubtitle": "príbehy, miesta a atmosféru miest premieňame na krásne, zberateľské predmety.",
     "categoriesTitle": "čo ponúkame",
+    "flagshipTitle": "obľúbené kategórie",
     "whyTitle": "prečo city glory",
     "why": {
       "artwork": {
@@ -60,7 +66,7 @@
   "footer": {
     "tagline": "príbehy miest premieňame na krásne predmety.",
     "shop": "obchod",
-    "discover": "spoznávanie",
+    "clanky": "články",
     "about": "o nás",
     "legal": "informácie",
     "faq": "časté otázky",

@@ -1,0 +1,303 @@
+<svg width="1500" height="1060" viewBox="0 0 1500 1060" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="ggpTitle">
+  <title id="ggpTitle">City Glory — Glory Grid patterns, Bratislava</title>
+  <defs>
+    <pattern id="g9" width="9.375" height="9.375" patternUnits="userSpaceOnUse">
+      <path d="M9.375 0H0V9.375" fill="none" stroke="#ECE5D8" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="g20" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#E9E2D4" stroke-width="0.7"/>
+    </pattern>
+
+    <!-- ===== reusable minis (each centred on 0,0) ===== -->
+    <g id="m-logo" fill="none" stroke="#1c1c1c" stroke-width="3" stroke-linecap="butt" stroke-linejoin="miter">
+      <path d="M-14.5 -14 L-7.7 -19 M-14.5 -14 C-14.5 2.7 -9.5 12.7 1.4 19"/>
+      <path d="M-6.8 -19 L9.5 -20.5 L14.1 -14.5 C16.8 -5.5 13.2 8.2 2.7 16.4 C-2.3 11.4 -1.8 5.9 1.8 2.7 L9.5 2.7"/>
+      <path d="M-5.5 4.5 C-3.6 9.1 -1.4 12.3 1.8 15" stroke-width="2.2"/>
+    </g>
+    <g id="m-castle" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-17 13 H17"/>
+      <path d="M-12 13 V-2 H12 V13"/>
+      <path d="M-15 -2 L-9.5 -11 L-4 -2 M4 -2 L9.5 -11 L15 -2"/>
+      <path d="M-3 13 V6 A3 3 0 0 1 3 6 V13"/>
+    </g>
+    <g id="m-ufo" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-20 13 H20"/>
+      <path d="M-11 13 L-4 -5 M11 13 L4 -5"/>
+      <ellipse cx="0" cy="-9" rx="13" ry="4.5"/>
+      <path d="M-5 -13 Q0 -17.5 5 -13 M0 -17.5 V-22"/>
+    </g>
+    <g id="m-kamzik" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-5 20 H5 M-5 20 L-9 2 M5 20 L9 2 M-9 2 H9"/>
+      <path d="M-9 2 L0 -28 M9 2 L0 -28 M0 -28 V-38 M-2.5 -33 H2.5"/>
+      <path d="M-6 -8 H6" stroke-width="1.6"/>
+    </g>
+    <g id="m-radio" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-16 -10 H16 M-16 -6.5 H16 M-16 -6.5 L-5 11 M16 -6.5 L5 11 M-5 11 H5"/>
+      <path d="M-10 2 H10" stroke-width="1.5"/>
+      <path d="M-3 -10 V-15 H3 V-10 M0 -15 V-20"/>
+    </g>
+    <g id="m-rozok" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-18 5 C-14 -12 14 -12 18 5 C11 -2 -11 -2 -18 5 Z"/>
+      <path d="M-8 -6 l3.5 5 M0 -8 l2 6 M8 -6 l-1 6" stroke-width="1.6"/>
+    </g>
+    <g id="m-glass" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-11 -12 H11 M-11 -12 C-11 0 -5 6 0 6 C5 6 11 0 11 -12"/>
+      <path d="M-8.5 -5 H8.5" stroke-width="1.6"/>
+      <path d="M0 6 V17 M-8 17 H8"/>
+    </g>
+    <g id="m-fish" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-16 0 C-8 -11 9 -9 16 0 C9 9 -8 11 -16 0 Z"/>
+      <path d="M-16 0 L-23 -7 M-16 0 L-23 7 M-23 -7 V7"/>
+      <path d="M7 -6 Q5 0 7 6" stroke-width="1.6"/>
+      <circle cx="10" cy="-2" r="1.7" fill="#1c1c1c" stroke="none"/>
+    </g>
+    <g id="m-waves" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linecap="round">
+      <path d="M-18 -3 Q-12 -9 -6 -3 T6 -3 T18 -3"/>
+      <path d="M-12 6 Q-6 0 0 6 T12 6"/>
+    </g>
+    <g id="m-print" fill="none" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round">
+      <rect x="-13" y="-17" width="26" height="34" rx="13" stroke-dasharray="7 3.5"/>
+      <rect x="-7.5" y="-10" width="15" height="21" rx="7.5" stroke-dasharray="5 3"/>
+      <path d="M-2.5 2 A3.5 3.5 0 1 1 3 2"/>
+    </g>
+    <g id="m-znamka" fill="none" stroke="#1c1c1c" stroke-width="1.8">
+      <rect x="-13" y="-13" width="26" height="26" stroke-dasharray="3.2 2.4"/>
+      <rect x="-7.5" y="-7.5" width="15" height="15" stroke-width="1.3"/>
+    </g>
+    <g id="m-stamp" fill="none" stroke="#1c1c1c" stroke-width="1.8">
+      <circle cx="0" cy="0" r="14"/>
+      <path d="M0 -8 C4 -7.5 6.5 -4.5 6.5 -1 C6.5 3 3.5 6.5 0 9 C-3.5 6.5 -6.5 3 -6.5 -1 C-6.5 -4.5 -4 -7.5 0 -8 Z" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; fill: #141414; }
+    .s { font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #1c1c1c; }
+    .b { font-weight: 700; }
+    .m { font-weight: 500; }
+    .sub { fill: #6f6a60; font-weight: 500; }
+    .ic { stroke: #1c1c1c; stroke-width: 2.4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .fl { fill: #1c1c1c; stroke: none; }
+    .box { fill: url(#g9); stroke: #DAD2C4; stroke-width: 1; }
+    .gd { stroke: #1c1c1c; fill: none; }
+    .lt { stroke: #C9C0AF; fill: none; }
+    .dash { stroke: #4a463e; stroke-width: 1; stroke-dasharray: 5 4; fill: none; }
+  </style>
+
+  <rect width="1500" height="1060" fill="#FBF6ED"/>
+
+  <!-- ============ HEADER ============ -->
+  <g class="ic" transform="translate(45,40)" stroke-width="2.2">
+    <path d="M2 38 V4 H14 V10 H22 V4 H34 V10 H42 V4 H54 V38 H2 Z"/>
+    <path d="M16 17 H23 V24 H16 Z M33 17 H40 V24 H33 Z M16 27 H23 V34 H16 Z M33 27 H40 V34 H33 Z"/>
+    <path d="M2 47 Q8.5 42 15 47 Q21.5 52 28 47 Q34.5 42 41 47 Q47.5 52 54 47"/>
+  </g>
+  <text class="serif" x="128" y="98" font-size="60">Glory Grid</text>
+  <text class="s b" x="130" y="138" font-size="12.5" letter-spacing="3">ONE GRID.  MANY PATTERNS.  ONE CITY.</text>
+
+  <line x1="575" y1="44" x2="575" y2="168" stroke="#1c1c1c" stroke-width="1"/>
+
+  <text class="s m" x="612" y="72" font-size="15" fill="#33302a">All City Glory patterns grow from the</text>
+  <text class="s m" x="612" y="96" font-size="15" fill="#33302a">same modular grid. Brand marks, stamps</text>
+  <text class="s m" x="612" y="120" font-size="15" fill="#33302a">and crossed motifs share one geometric</text>
+  <text class="s m" x="612" y="144" font-size="15" fill="#33302a">language with the landmark icons.</text>
+
+  <!-- steps -->
+  <g transform="translate(1020,48)">
+    <rect x="0" y="0" width="66" height="66" class="box" stroke="#1c1c1c" stroke-width="1.2"/>
+    <text class="s b" x="33" y="96" font-size="10" letter-spacing="1.4" text-anchor="middle">1. MASTER GRID</text>
+    <g class="gd" stroke-width="1.5"><path d="M84 33 H116 M116 33 l-7 -4.5 M116 33 l-7 4.5"/></g>
+    <rect x="132" y="0" width="66" height="66" class="box" stroke="#1c1c1c" stroke-width="1.2"/>
+    <circle cx="165" cy="33" r="20" class="lt" stroke-dasharray="3 3"/>
+    <path d="M138 60 L192 6" class="lt" stroke-width="0.8"/>
+    <g class="ic" stroke-width="1.8"><path d="M150 45 C150 30 158 22 165 18 M180 45 C180 30 172 22 165 18" /><path d="M148 48 H182"/></g>
+    <text class="s b" x="165" y="96" font-size="10" letter-spacing="1.4" text-anchor="middle">2. BUILD</text>
+    <g class="gd" stroke-width="1.5"><path d="M216 33 H248 M248 33 l-7 -4.5 M248 33 l-7 4.5"/></g>
+    <use xlink:href="#m-stamp" transform="translate(297,30) scale(1.7)"/>
+    <text class="s b" x="297" y="96" font-size="10" letter-spacing="1.4" text-anchor="middle">3. PATTERN FAMILY</text>
+  </g>
+
+  <!-- ============ LEFT: MASTER GRID ============ -->
+  <text class="s b" x="45" y="232" font-size="15" letter-spacing="2.4">MASTER GRID</text>
+
+  <text class="s b" x="205" y="249" font-size="10" letter-spacing="2" text-anchor="middle">16 MODULES</text>
+  <g class="gd" stroke-width="1">
+    <path d="M45 256 H365 M45 256 l6 -3.5 M45 256 l6 3.5 M365 256 l-6 -3.5 M365 256 l-6 3.5"/>
+    <path d="M31 268 V588 M31 268 l-3.5 6 M31 268 l3.5 6 M31 588 l-3.5 -6 M31 588 l3.5 -6"/>
+  </g>
+  <text class="s b" font-size="10" letter-spacing="2" text-anchor="middle" transform="rotate(-90 22 428)" x="22" y="428">16 MODULES</text>
+
+  <rect x="45" y="268" width="320" height="320" fill="url(#g20)" stroke="#1c1c1c" stroke-width="1.2"/>
+  <g class="gd" stroke-width="1">
+    <circle cx="205" cy="428" r="145"/>
+    <circle cx="205" cy="428" r="58"/>
+    <path d="M45 268 L365 588 M365 268 L45 588"/>
+  </g>
+  <g class="dash">
+    <path d="M45 348 H365 M45 428 H365 M45 508 H365"/>
+    <path d="M365 268 H400 M365 348 H400 M365 428 H400 M365 508 H400 M365 588 H400"/>
+  </g>
+  <g class="s b" font-size="9" letter-spacing="1" fill="#3a372f">
+    <text x="404" y="271">TOP LINE</text>
+    <text x="404" y="351">UPPER BASELINE</text>
+    <text x="404" y="431">MIDLINE</text>
+    <text x="404" y="511">LOWER BASELINE</text>
+    <text x="404" y="591">BOTTOM LINE</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="45" y="622" width="14" height="14" fill="none" stroke="#1c1c1c" stroke-width="1.5"/>
+  <text class="s b" x="72" y="634" font-size="10.5" letter-spacing="1.2">=  1 MODULE</text>
+
+  <rect x="45" y="660" width="30" height="30" fill="none" stroke="#1c1c1c" stroke-width="1.2"/>
+  <path d="M55 660 V690 M65 660 V690 M45 670 H75 M45 680 H75" stroke="#1c1c1c" stroke-width="0.8"/>
+  <text class="s b" x="92" y="672" font-size="10.5" letter-spacing="1.2">MODULAR GRID</text>
+  <text class="s sub" x="92" y="688" font-size="10">All patterns align to a 16×16 module grid.</text>
+
+  <circle cx="60" cy="725" r="15" fill="none" stroke="#1c1c1c" stroke-width="1.5"/>
+  <text class="s b" x="92" y="722" font-size="10.5" letter-spacing="1.2">CIRCLES</text>
+  <text class="s sub" x="92" y="738" font-size="10">For stamps, prints and organic flows.</text>
+
+  <path d="M46 782 L74 754" stroke="#1c1c1c" stroke-width="1.8"/>
+  <text class="s b" x="92" y="772" font-size="10.5" letter-spacing="1.2">DIAGONALS</text>
+  <text class="s sub" x="92" y="788" font-size="10">For crossed motifs and dynamic forms.</text>
+
+  <path d="M45 816 H75" stroke="#1c1c1c" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <text class="s b" x="92" y="820" font-size="10.5" letter-spacing="1.2">BASELINES</text>
+  <text class="s sub" x="92" y="836" font-size="10">Ensure consistent alignment and rhythm.</text>
+
+  <line x1="505" y1="220" x2="505" y2="950" stroke="#1c1c1c" stroke-width="0.8"/>
+
+  <!-- ============ RIGHT: PATTERN FAMILY ============ -->
+  <text class="s b" x="545" y="232" font-size="15" letter-spacing="2.4">PATTERN FAMILY</text>
+
+  <!-- ~~~~ ROW 1 ~~~~ -->
+  <!-- City Print — fingerprint city map -->
+  <g transform="translate(545,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic" stroke-width="2.1">
+      <rect x="35" y="22" width="80" height="106" rx="38" stroke-dasharray="16 5 24 6 12 7"/>
+      <rect x="43" y="31" width="64" height="88" rx="31" stroke-dasharray="10 6 20 5 15 6" stroke-dashoffset="14"/>
+      <rect x="51" y="40" width="48" height="70" rx="24" stroke-dasharray="18 5 9 6 14 5" stroke-dashoffset="30"/>
+      <rect x="59" y="49" width="32" height="52" rx="16" stroke-dasharray="8 5 16 4 10 5" stroke-dashoffset="8"/>
+    </g>
+    <g stroke="#FBF6ED" stroke-width="13" fill="none" stroke-linecap="round">
+      <path d="M36 88 C56 84 64 90 70 100 C74 107 74 114 72 126"/>
+      <path d="M71 104 C79 106 85 113 87 126"/>
+    </g>
+    <g class="ic" stroke-width="2.2">
+      <path d="M36 84 C57 80 66 86 72 96 C76 103 77 110 75 122"/>
+      <path d="M36 92 C54 89 61 94 66 103 C69 108 69 114 68 122"/>
+      <path d="M74 105 C81 107 86 114 88 124"/>
+    </g>
+    <g class="ic" stroke-width="1.6">
+      <path d="M56 58 h7 M88 66 h6 M92 98 h5"/>
+      <path d="M69 70 Q75 64 81 70" stroke-width="1.8"/>
+    </g>
+  </g>
+  <!-- Logo mark — G shield -->
+  <g transform="translate(735,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic" stroke-width="3.4" stroke-linejoin="miter" stroke-linecap="butt">
+      <path d="M43 41 L58 30"/>
+      <path d="M43 41 C43 78 54 100 78 114"/>
+      <path d="M60 30 L96 27 L106 40 C112 60 104 90 81 108 C70 97 71 85 79 78 L96 78"/>
+    </g>
+    <g class="ic" stroke-width="2.4">
+      <path d="M63 82 C67 92 72 99 79 105"/>
+    </g>
+  </g>
+  <!-- Pečiatka — round Created stamp -->
+  <g transform="translate(925,258)">
+    <rect width="150" height="150" class="box"/>
+    <defs>
+      <path id="stArcTop" d="M75 111 A36 36 0 1 1 75.01 111"/>
+      <path id="stArcBot" d="M75 47.5 A27.5 27.5 0 1 0 75.01 47.5"/>
+    </defs>
+    <g class="ic">
+      <circle cx="75" cy="75" r="49"/>
+      <circle cx="75" cy="75" r="44" stroke-width="1.4"/>
+    </g>
+    <text class="s b" font-size="10.5" letter-spacing="2" fill="#1c1c1c">
+      <textPath xlink:href="#stArcTop" startOffset="50%" text-anchor="middle">BRATISLAVA CITY GLORY</textPath>
+    </text>
+    <text class="s b" font-size="7.5" letter-spacing="2.4" fill="#1c1c1c">
+      <textPath xlink:href="#stArcBot" startOffset="50%" text-anchor="middle">POWERED BY</textPath>
+    </text>
+    <circle cx="41" cy="93" r="1.7" class="fl"/>
+    <circle cx="109" cy="93" r="1.7" class="fl"/>
+    <use xlink:href="#m-logo" transform="translate(75,73) scale(0.78)"/>
+  </g>
+  <!-- Poštová známka — perforated frame -->
+  <g transform="translate(1115,258)">
+    <rect width="150" height="150" class="box"/>
+    <g class="ic" stroke-width="2">
+      <path d="M40 34
+        a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0 a4.4 4.4 0 0 1 8.75 0
+        a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75 a4.4 4.4 0 0 1 0 8.75
+        a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0 a4.4 4.4 0 0 1 -8.75 0
+        a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 a4.4 4.4 0 0 1 0 -8.75 Z"/>
+      <rect x="50" y="44" width="50" height="67.5" stroke-width="1.6"/>
+    </g>
+    <use xlink:href="#m-castle" transform="translate(75,72) scale(1.05)"/>
+    <path d="M60 96 Q64 92 68 96 T76 96 T84 96 T92 96" stroke="#1c1c1c" stroke-width="1.6" fill="none"/>
+    <path d="M120 118 q6 -4 12 0 M118 126 q6 -4 12 0" stroke="#1c1c1c" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <!-- ~~~~ ROW 2 ~~~~ -->
+  <!-- Landmarks pattern -->
+  <g transform="translate(545,470)">
+    <rect width="435" height="150" class="box"/>
+    <g class="gd" stroke-width="1.5">
+      <path d="M42 24 L393 126 M393 24 L42 126"/>
+    </g>
+    <use xlink:href="#m-castle" transform="translate(217.5,40)"/>
+    <use xlink:href="#m-ufo" transform="translate(105,75)"/>
+    <use xlink:href="#m-kamzik" transform="translate(330,79)"/>
+    <use xlink:href="#m-radio" transform="translate(217.5,113)"/>
+  </g>
+  <!-- Gastro pattern -->
+  <g transform="translate(1020,470)">
+    <rect width="435" height="150" class="box"/>
+    <g class="gd" stroke-width="1.5">
+      <path d="M42 24 L393 126 M393 24 L42 126"/>
+    </g>
+    <use xlink:href="#m-rozok" transform="translate(217.5,40)"/>
+    <use xlink:href="#m-glass" transform="translate(105,75)"/>
+    <use xlink:href="#m-fish" transform="translate(330,75)"/>
+    <use xlink:href="#m-waves" transform="translate(217.5,112)"/>
+  </g>
+
+  <!-- ~~~~ ROW 3: repeat tile ~~~~ -->
+  <g transform="translate(545,682)">
+    <rect width="910" height="150" class="box"/>
+    <use xlink:href="#m-logo" transform="translate(75,50) scale(0.85)"/>
+    <use xlink:href="#m-rozok" transform="translate(148,105) scale(0.85)"/>
+    <use xlink:href="#m-stamp" transform="translate(221,48) scale(1.15)"/>
+    <use xlink:href="#m-waves" transform="translate(294,104) scale(0.9)"/>
+    <use xlink:href="#m-print" transform="translate(367,52) scale(1.1)"/>
+    <use xlink:href="#m-glass" transform="translate(440,103) scale(0.85)"/>
+    <use xlink:href="#m-castle" transform="translate(513,49) scale(0.9)"/>
+    <use xlink:href="#m-fish" transform="translate(586,104) scale(0.9)"/>
+    <use xlink:href="#m-znamka" transform="translate(659,50) scale(1.1)"/>
+    <use xlink:href="#m-kamzik" transform="translate(732,108) scale(0.8)"/>
+    <use xlink:href="#m-ufo" transform="translate(805,52) scale(0.9)"/>
+    <use xlink:href="#m-radio" transform="translate(860,105) scale(0.85)"/>
+  </g>
+
+  <!-- labels -->
+  <g class="s b" font-size="11.5" letter-spacing="1.6" text-anchor="middle">
+    <text x="620" y="434">CITY PRINT</text>
+    <text x="810" y="434">LOGO MARK</text>
+    <text x="1000" y="434">PEČIATKA / STAMP</text>
+    <text x="1190" y="434">POŠTOVÁ ZNÁMKA</text>
+    <text x="762.5" y="646">LANDMARKS PATTERN</text>
+    <text x="1237.5" y="646">GASTRO PATTERN</text>
+    <text x="1000" y="858">REPEAT TILE / OPAKOVANÝ VZOR</text>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="45" y1="990" x2="1455" y2="990" stroke="#1c1c1c" stroke-width="1"/>
+  <text class="s b" x="45" y="1020" font-size="12" letter-spacing="2.6">CITY GLORY SYSTEM</text>
+  <text class="s b" x="1414" y="1020" font-size="12" letter-spacing="2.6" text-anchor="end">BRATISLAVA</text>
+  <path d="M1436 1021 C1433 1017 1424 1013 1424 1006.5 C1424 1002 1427.5 999.5 1431 1000.5 C1433.5 1001.2 1435.3 1003 1436 1004.5 C1436.7 1003 1438.5 1001.2 1441 1000.5 C1444.5 999.5 1448 1002 1448 1006.5 C1448 1013 1439 1017 1436 1021 Z" fill="none" stroke="#1c1c1c" stroke-width="1.6"/>
+</svg>

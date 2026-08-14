@@ -59,7 +59,7 @@ export function mvpCategories() {
 /**
  * Cross-cutting motif themes. Used as catalogue filters and as the bridge to
  * editorial content (an article's theme can surface matching products, and a
- * print's theme links back to its story). Mirrors the Spoznávanie topics.
+ * print's theme links back to its story). Mirrors the Články topics.
  */
 export const themes = [
   { key: "mestaMiesta", slug: "mesta-a-miesta" },

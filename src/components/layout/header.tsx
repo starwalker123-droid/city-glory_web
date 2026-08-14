@@ -2,12 +2,13 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Search, User, Heart, ShoppingBag, Menu, X } from "lucide-react";
+import { User, Heart, ShoppingBag, Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { mainNav } from "@/config/navigation";
 import { categoriesByParent } from "@/config/catalog";
 import { clothingIcons } from "@/components/icons/apparel";
 import { Logo } from "./logo";
+import { HeaderSearch } from "./header-search";
 import { LanguageSwitcher } from "./language-switcher";
 import { NavDropdown } from "./nav-dropdown";
 
@@ -66,14 +67,8 @@ export function Header() {
 
         {/* Right: utilities */}
         <div className="flex items-center gap-3 sm:gap-4">
+          <HeaderSearch />
           <LanguageSwitcher />
-          <button
-            type="button"
-            aria-label={tc("search")}
-            className="text-ink/80 hover:text-ink"
-          >
-            <Search className="size-5" />
-          </button>
           <Link
             href="/ucet"
             aria-label={tc("account")}

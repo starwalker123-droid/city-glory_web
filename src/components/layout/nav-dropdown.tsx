@@ -40,7 +40,7 @@ export function NavDropdown({
       </Link>
 
       <div className="invisible absolute left-0 top-full z-50 translate-y-1 pt-3 opacity-0 transition-[opacity,transform] duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 motion-reduce:translate-y-0 motion-reduce:transition-none">
-        <ul className="min-w-[224px] rounded-xl border border-border bg-surface p-2 shadow-[0_8px_24px_rgba(45,45,45,0.08)]">
+        <ul className="grid min-w-[400px] grid-cols-2 gap-1 rounded-xl border border-border bg-surface p-2 shadow-[0_8px_24px_rgba(45,45,45,0.08)]">
           {items.map((item) => (
             <li key={item.key}>
               <Link

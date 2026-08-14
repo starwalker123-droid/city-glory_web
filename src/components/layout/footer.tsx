@@ -10,7 +10,7 @@ export function Footer() {
       title: t("shop"),
       links: [
         { label: t("shop"), href: "/oblecenie" },
-        { label: t("discover"), href: "/spoznavanie" },
+        { label: t("clanky"), href: "/clanky" },
         { label: t("newsletter"), href: "/#newsletter" },
       ],
     },

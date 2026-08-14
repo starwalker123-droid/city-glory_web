@@ -5,7 +5,7 @@
 export const mainNav = [
   { key: "oblecenie", href: "/oblecenie" },
   { key: "doplnky", href: "/doplnky" },
-  { key: "spoznavanie", href: "/spoznavanie" },
+  { key: "clanky", href: "/clanky" },
   { key: "capsula", href: "/capsula" },
   { key: "viral", href: "/viral" },
   { key: "preFirmy", href: "/pre-firmy" },

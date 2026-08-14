@@ -21,7 +21,7 @@ export function Hero() {
           <p className="mt-6 max-w-md text-lg text-muted">{t("heroSubtitle")}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="/spoznavanie"
+              href="/clanky"
               className={cn(buttonVariants({ variant: "primary", size: "lg" }))}
             >
               {tc("discover")}

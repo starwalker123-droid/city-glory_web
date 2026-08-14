@@ -1,36 +1,28 @@
 "use client";
 
 import { useParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { cn } from "@/lib/utils";
 
+/** Shows the locale you can switch TO (not the current one) as a single toggle. */
 export function LanguageSwitcher() {
+  const t = useTranslations("common");
   const pathname = usePathname();
   const router = useRouter();
   const params = useParams();
   const current = (params.locale as string) ?? routing.defaultLocale;
+  const next = routing.locales.find((loc) => loc !== current) ?? current;
+  const label = next === "en" ? t("switchToEnglish") : t("switchToSlovak");
 
   return (
-    <div className="flex items-center gap-1 text-xs uppercase">
-      {routing.locales.map((loc, i) => (
-        <span key={loc} className="flex items-center gap-1">
-          {i > 0 && <span className="text-border">/</span>}
-          <button
-            type="button"
-            onClick={() => router.replace(pathname, { locale: loc })}
-            aria-current={loc === current}
-            className={cn(
-              "transition-colors",
-              loc === current
-                ? "font-semibold text-ink"
-                : "text-muted hover:text-ink",
-            )}
-          >
-            {loc}
-          </button>
-        </span>
-      ))}
-    </div>
+    <button
+      type="button"
+      onClick={() => router.replace(pathname, { locale: next })}
+      aria-label={label}
+      className="text-xs font-semibold uppercase text-ink/80 transition-colors hover:text-ink"
+    >
+      {next}
+    </button>
   );
 }

@@ -1,5 +1,5 @@
 import { mockProducts } from "./mock-data";
-import type { Product } from "./types";
+import type { Product, ProductCategory } from "./types";
 
 export type { Product } from "./types";
 
@@ -17,6 +17,12 @@ export async function getAllProducts(): Promise<Product[]> {
 
 export async function getFeaturedProducts(limit = 4): Promise<Product[]> {
   return mockProducts.slice(0, limit);
+}
+
+export async function getFeaturedProductByCategory(
+  category: ProductCategory,
+): Promise<Product | null> {
+  return mockProducts.find((p) => p.category === category) ?? null;
 }
 
 export async function getProductByHandle(

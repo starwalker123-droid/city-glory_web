@@ -2,7 +2,7 @@
   "nav": {
     "oblecenie": "clothing",
     "doplnky": "accessories",
-    "spoznavanie": "discover",
+    "clanky": "articles",
     "capsula": "capsula",
     "viral": "viral",
     "spravy": "stories",
@@ -16,6 +16,8 @@
     "wishlist": "wishlist",
     "cart": "cart",
     "language": "language",
+    "switchToEnglish": "switch to English",
+    "switchToSlovak": "switch to Slovak",
     "menu": "menu",
     "close": "close",
     "discover": "discover",
@@ -26,15 +28,19 @@
     "viewAll": "view all"
   },
   "announcement": {
-    "limited": "limited collection now available",
-    "collab": "new artist collaboration",
-    "preorder": "pre-orders now open"
+    "limited": "limited Hrad print on sale from 29.9.2026",
+    "promo": "t-shirt sale from 20.11.2026",
+    "preorder": "pre-orders now open",
+    "previous": "previous announcement",
+    "next": "next announcement",
+    "goTo": "go to announcement {number}"
   },
   "home": {
     "heroEyebrow": "cultural store",
     "heroHeading": "every city has a story",
     "heroSubtitle": "we turn the stories, places and atmosphere of cities into beautiful, collectible objects.",
     "categoriesTitle": "what we make",
+    "flagshipTitle": "popular categories",
     "whyTitle": "why city glory",
     "why": {
       "artwork": {
@@ -60,7 +66,7 @@
   "footer": {
     "tagline": "we turn city stories into beautiful objects.",
     "shop": "shop",
-    "discover": "discover",
+    "clanky": "articles",
     "about": "about",
     "legal": "information",
     "faq": "faq",
