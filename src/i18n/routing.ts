@@ -10,8 +10,12 @@ import { defineRouting } from "next-intl/routing";
 export const routing = defineRouting({
   locales: ["sk", "en"],
   defaultLocale: "sk",
-  // Keep the default locale clean (no `/sk` prefix) while `/en` is prefixed.
-  localePrefix: "as-needed",
+  // Every locale is prefixed, including the default — `/` always redirects
+  // to `/sk` rather than serving Slovak unprefixed. Detection is off so that
+  // redirect is deterministic (no Accept-Language sniffing sending visitors
+  // to `/en` unasked).
+  localePrefix: "always",
+  localeDetection: false,
 });
 
 export type Locale = (typeof routing.locales)[number];
