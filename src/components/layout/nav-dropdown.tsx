@@ -14,30 +14,37 @@ export type DropdownItem = {
 /**
  * Desktop nav item with a hover/focus dropdown. Opens on pointer hover and on
  * keyboard focus (group-focus-within), so it's accessible without JS state.
+ * The trigger is a button by default — most of these parents have no page of
+ * their own, only the sub-items listed below do. Pass `href` for the rare
+ * parent (e.g. clanky) that has a real landing page of its own.
  * The `pt-3` wrapper bridges the gap between trigger and panel so the menu
  * stays open while the pointer travels to it.
  */
 export function NavDropdown({
   label,
-  href,
   items,
+  href,
 }: {
   label: string;
-  href: string;
   items: DropdownItem[];
+  href?: string;
 }) {
+  const triggerClass =
+    "inline-flex items-center gap-1 text-sm text-ink/80 transition-colors hover:text-ink";
+
   return (
     <div className="group relative">
-      <Link
-        href={href}
-        className="inline-flex items-center gap-1 text-sm text-ink/80 transition-colors hover:text-ink"
-      >
-        {label}
-        <ChevronDown
-          className="size-3.5 text-ink/50 transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180"
-          aria-hidden
-        />
-      </Link>
+      {href ? (
+        <Link href={href} className={triggerClass}>
+          {label}
+          <ChevronDown className="size-3.5 text-ink/50" aria-hidden />
+        </Link>
+      ) : (
+        <button type="button" className={triggerClass}>
+          {label}
+          <ChevronDown className="size-3.5 text-ink/50" aria-hidden />
+        </button>
+      )}
 
       <div className="invisible absolute left-0 top-full z-50 translate-y-1 pt-3 opacity-0 transition-[opacity,transform] duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 motion-reduce:translate-y-0 motion-reduce:transition-none">
         <ul className="grid min-w-[400px] grid-cols-2 gap-1 rounded-xl border border-border bg-surface p-2 shadow-[0_8px_24px_rgba(45,45,45,0.08)]">

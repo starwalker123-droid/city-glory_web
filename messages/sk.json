@@ -1,13 +1,13 @@
 {
   "nav": {
     "oblecenie": "oblečenie",
-    "doplnky": "doplnky",
+    "doplnky": "pre radosť",
     "clanky": "články",
     "capsula": "capsula",
     "viral": "viral",
     "spravy": "správy",
     "sprievodcovia": "sprievodcovia",
-    "preFirmy": "pre firmy",
+    "preFirmy": "na mieru",
     "kontakt": "kontakt+"
   },
   "common": {
@@ -36,10 +36,23 @@
     "goTo": "prejsť na oznam {number}"
   },
   "home": {
-    "heroEyebrow": "kultúrny obchod",
-    "heroHeading": "každé mesto má svoj príbeh",
-    "heroSubtitle": "príbehy, miesta a atmosféru miest premieňame na krásne, zberateľské predmety.",
-    "categoriesTitle": "čo ponúkame",
+    "heroSlides": {
+      "motifs": {
+        "heading": "zaujímavé motívy s príbehom",
+        "subtitle": "zaujímavé miesta prepájame s grafickými motívmi, ktoré sú doplnené o originálne príbehy."
+      },
+      "capsula": {
+        "heading": "capsula: limitované spolupráce s umelcami",
+        "subtitle": "originálne kolekcie, ktoré vznikli v spolupráci s umelcami a osobnosťami miest."
+      },
+      "viral": {
+        "heading": "viral: momenty, ktoré rezonujú",
+        "subtitle": "limitované kolekcie reagujúce na aktuálne trendy a kultúrne momenty."
+      }
+    },
+    "heroPrev": "predchádzajúci baner",
+    "heroNext": "ďalší baner",
+    "heroGoTo": "prejsť na baner {number}",
     "flagshipTitle": "obľúbené kategórie",
     "whyTitle": "prečo city glory",
     "why": {
@@ -60,8 +73,90 @@
         "text": "Pohodlné vrátenie tovaru do 14 dní, bez komplikácií."
       }
     },
-    "featuredTitle": "vybrané kúsky",
-    "featuredSubtitle": "naprieč všetkými kategóriami — nielen bestsellery"
+    "favoritesEyebrow": "vybrané",
+    "articlesEyebrow": "články",
+    "novinkyEyebrow": "nápady na zlepšenie",
+    "novinky": {
+      "hlasovanie": {
+        "title": "hlasujte o ďalšom meste",
+        "excerpt": "vyberte, ktoré mesto by malo dostať vlastnú kolekciu ako ďalšie."
+      },
+      "spatnaVazba": {
+        "title": "napíšte, čo vám chýba",
+        "excerpt": "vaše nápady na nové motívy a produkty čítame a premýšľame nad nimi."
+      }
+    },
+    "guidesEyebrow": "sprievodcovia",
+    "guides": {
+      "zuzanaGodarova": {
+        "focus": "hudobná bratislava",
+        "promo": "Ak ste milovníkom hudby, či už klasickej, modernej, rockovej alebo alternatívnej scény, so sprievodkyňou Zuzanou objavíte hudobnú Bratislavu, tak ako v žiadnom bedekri."
+      },
+      "lubaSolanova": {
+        "focus": "vedci prešporka",
+        "promo": "Ak chcete vedieť, čo priviedlo Edisona a Einsteina do Bratislavy a ktorí bratislavskí rodáci sa postarali o významné vedecké objavy, ste na správnej adrese."
+      },
+      "katkaStanikova": {
+        "focus": "bratislavská bežecká prehliadka",
+        "promo": "Spoznajte krásy Bratislavy v rýchlosti. Určené pre nadšencov behu a spoznávania nových miest."
+      },
+      "oliverKriz": { "focus": "židovská bratislava" }
+    },
+    "likedProjectsEyebrow": "projekty, ktoré sa nám páčia"
+  },
+  "clanky": {
+    "pageIntro": "príbehy známe, ale aj menej poznané...",
+    "shopPromoTitle": "páči sa vám tento príbeh?",
+    "shopPromoText": "pozrite si produkty, ktoré ho nesú ďalej.",
+    "shopPromoCta": "pozrieť produkt",
+    "backToTop": "späť na začiatok článku",
+    "galleryTitle": "fotogaléria"
+  },
+  "kontakt": {
+    "tagline": "Sme malý bratislavský tím, ktorý premieňa príbehy mesta na predmety s dušou.",
+    "photoAlt": "Uličky starého mesta",
+    "aboutTitle": "o nás",
+    "about": {
+      "p1": "Bratislavu poznáme dôverne — nie z turistických sprievodcov, ale z každodenných prechádzok, rozhovorov v kaviarňach a detailov, okolo ktorých bežne prejdete bez povšimnutia. City Glory vzniklo z chuti tieto detaily zachytiť a premeniť na niečo, čo si môžete zavesiť na stenu, nalepiť na chladničku alebo obliecť na seba.",
+      "p2": "Za každým motívom je príbeh — niekedy skutočný, niekedy len napoly. O osobnostiach a udalostiach, ktoré mesto formovali, aj o tých, ktoré sme si trochu domysleli. Kto vie, možno sa raz aj naplnia.",
+      "p3": "Okrem produktov nájdete na webe aj články a tipy od ľudí, ktorí Bratislavu poznajú naozaj dobre — miestni sprievodcovia, komunitné projekty a zaujímavosti, ktoré vás prekvapia, aj keď tu bývate celý život.",
+      "p4": "Za City Glory stojí malý tím — Táňa, Jany, Ivo, Dominika a Miro. Spája nás radosť z grafiky a príbehov a, priznajme si, aj mierna posadnutosť detailom. Presne túto kombináciu vkladáme do každého produktu.",
+      "p5": "Bratislava je zatiaľ len začiatok. Radi by sme podobným spôsobom raz porozprávali aj príbehy ďalších miest — a o tom, ktoré bude na rade, môžete rozhodnúť aj vy."
+    },
+    "motifsTitle": "zoznam vybraných motívov",
+    "form": {
+      "title": "napíšte nám",
+      "intro": "Máte otázku, nápad na spoluprácu, alebo len chcete pozdraviť? Radi si prečítame, čo máte na srdci.",
+      "name": "meno a priezvisko",
+      "email": "e-mail",
+      "message": "správa",
+      "submit": "odoslať správu",
+      "consent": "súhlasím so spracovaním osobných údajov",
+      "successTitle": "ďakujeme!",
+      "successText": "Správa je na ceste k nám. Ozveme sa vám čo najskôr.",
+      "replyNote": "Odpovieme čo najskôr.",
+      "businessNote": "Hľadáte produkty na mieru pre firmu?",
+      "businessLink": "pozrieť ponuku pre firmy"
+    }
+  },
+  "preFirmyPage": {
+    "intro": "Radi vytvárame produkty s jedinečnou identitou — pre firmy, ktoré chcú niečo výnimočné, aj pre jednotlivcov, ktorí hľadajú vlastný grafický návrh.",
+    "body": {
+      "p1": "Každý produkt, ktorý u nás vznikne na mieru, začína rovnako ako naše vlastné motívy — príbehom. Miesto, značka alebo nápad, ktorý chcete pripomenúť, sa u nás premení na grafiku a napokon na hmatateľný predmet, ktorý si budete chcieť nechať.",
+      "p2": "Pracujeme s firmami aj jednotlivcami. Niekedy ide o darčeky pre klientov s vlastnou identitou značky, inokedy o jediný kúsok pre niekoho, kto chce mať doma alebo v kancelárii niečo naozaj svoje. Takto sme napríklad pripravovali motívy na mieru pre hotel Carlton a postupne pribúdajú aj ďalšie hotely a prevádzky, ktoré hľadajú vlastný vizuál s dušou mesta.",
+      "p3": "Proces je jednoduchý — spoznáme váš príbeh, navrhneme motív, ktorý ho vystihne, a spolu vyberieme, na akom produkte najlepšie zafunguje. Od tričiek cez magnetky až po kachličky či printy.",
+      "p4": "Ak sa vám páči niektorý z našich existujúcich dizajnov a chceli by ste podobný, no vlastný — pre svoju značku, alebo len pre seba — ozvite sa nám. Radi sa na to pozrieme."
+    },
+    "ctaTitle": "chcete niečo podobné?",
+    "ctaText": "napíšte nám pár slov o vašom nápade a ozveme sa vám.",
+    "ctaButton": "napísať nám"
+  },
+  "newsCategory": {
+    "vsetky": "všetky",
+    "osobnosti": "osobnosti",
+    "udalosti": "udalosti",
+    "zaujimavosti": "zaujímavosti",
+    "umenie": "umenie"
   },
   "footer": {
     "tagline": "príbehy miest premieňame na krásne predmety.",
@@ -80,10 +175,17 @@
     "rights": "Všetky práva vyhradené."
   },
   "newsletter": {
-    "heading": "buďte pri tom prví",
-    "subtitle": "skoršie prístupy, limitované edície a príbehy miest priamo do vašej schránky.",
+    "heading": "prihlás sa na odber",
+    "intro": "ak máš záujem o:",
+    "benefits": {
+      "earlyAccess": "skorší prístup k novinkám",
+      "loyalty": "vernostné výhody",
+      "limited": "limitované ponuky"
+    },
     "placeholder": "váš e-mail",
-    "submit": "prihlásiť sa"
+    "submit": "prihlásiť sa",
+    "captchaLabel": "nie som robot",
+    "consent": "súhlasím so spracovaním údajov"
   },
   "category": {
     "tricka": "tričká",
@@ -104,6 +206,73 @@
     "sviecky": "sviečky",
     "zapisniky": "zápisníky"
   },
+  "product": {
+    "emptyCategory": "v tejto kategórii zatiaľ nemáme produkty.",
+    "outOfStock": "vypredané",
+    "filters": "filtre",
+    "clearFilters": "zrušiť filtre",
+    "audience": "pre koho",
+    "size": "veľkosť",
+    "color": "farba",
+    "price": "cena",
+    "onOrder": "na objednávku",
+    "noResults": "žiadne produkty nezodpovedajú zvoleným filtrom.",
+    "previousImage": "predchádzajúci obrázok",
+    "nextImage": "ďalší obrázok",
+    "openImage": "zväčšiť fotku",
+    "showMore": "zobraziť ďalšie produkty",
+    "backToTop": "späť na prvé produkty",
+    "sizeGuide": "tabuľka veľkostí",
+    "quantity": "počet kusov",
+    "inStock": "skladom",
+    "estimatedShipping": "predpokladané odoslanie {date}",
+    "motifStory": "príbeh k motívu",
+    "suitableForTitle": "pre koho je vhodné",
+    "suitableForText": "Pre každého, kto má Bratislavu rád — či už tu býva, len ju navštívil, alebo ju nosí v spomienkach. Rovnako dobre poslúži ako darček aj ako maličkosť pre seba.",
+    "usefulInfoTitle": "užitočné informácie",
+    "usefulInfoText": "Balíme šetrne a posielame spravidla do 2 pracovných dní. Veľkosť si nie ste istí? Pozrite si tabuľku veľkostí vyššie, prípadne nám napíšte na info@cityglory.sk.",
+    "relatedTitle": "mohlo by sa vám páčiť",
+    "previousProducts": "predchádzajúce produkty",
+    "nextProducts": "ďalšie produkty"
+  },
+  "cart": {
+    "title": "košík",
+    "empty": "váš košík je zatiaľ prázdny.",
+    "continueShopping": "pokračovať v nákupe",
+    "remove": "odstrániť",
+    "subtotal": "medzisúčet",
+    "shippingNote": "doprava sa vypočíta pri pokladni.",
+    "checkout": "pokračovať k pokladni"
+  },
+  "checkout": {
+    "title": "pokladňa",
+    "contactTitle": "kontaktné údaje",
+    "email": "e-mail",
+    "deliveryTitle": "doručovacia adresa",
+    "fullName": "meno a priezvisko",
+    "address": "ulica a číslo",
+    "city": "mesto",
+    "zip": "PSČ",
+    "phone": "telefón",
+    "paymentTitle": "spôsob platby",
+    "paymentCard": "platba kartou online",
+    "paymentCod": "dobierka",
+    "subtotal": "medzisúčet",
+    "shipping": "doprava",
+    "total": "spolu",
+    "submit": "objednať s povinnosťou platby",
+    "successTitle": "ďakujeme za objednávku!",
+    "successText": "vaša objednávka č. {number} bola prijatá. potvrdenie sme poslali na váš e-mail.",
+    "emptyTitle": "váš košík je prázdny",
+    "emptyText": "pridajte si do košíka niečo, čo sa vám páči, a vráťte sa sem k pokladni.",
+    "backToShop": "späť do obchodu"
+  },
+  "audience": {
+    "unisex": "unisex",
+    "damy": "dámske",
+    "panske": "pánske",
+    "deti": "detské"
+  },
   "theme": {
     "mestaMiesta": "mestá a miesta",
     "architektura": "architektúra",
@@ -113,5 +282,12 @@
     "osobnosti": "osobnosti",
     "sTextom": "s textom",
     "abstraktne": "abstraktné"
+  },
+  "badge": {
+    "viral": "viral",
+    "akcia": "akcia",
+    "capsula": "capsula",
+    "limitovane": "limitované",
+    "novinka": "novinka"
   }
 }

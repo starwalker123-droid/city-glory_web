@@ -16,15 +16,25 @@
   --color-cream: #fff7f0; /* warm page background */
   --color-paper: #ffffff; /* commerce surfaces */
   --color-mist: #f5f5f5; /* subtle surfaces / placeholders */
-  --color-ink: #2d2d2d; /* charcoal text / primary */
+  --color-ink: #3f3f3d; /* charcoal text / primary */
   --color-sky: #95c6ff; /* brand / primary interactive accent */
   --color-lilac: #e2a9f1; /* capsula / artist accent */
   --color-sun: #ffde59; /* viral / limited highlight */
 
+  /* Soft badge tones — same brand hues, muted to a pastel wash + a deep
+     same-hue text so pills stay calm and legible instead of a raw color
+     block. Background/text pairs, not standalone accents. */
+  --color-sky-soft: #ebf2f9;
+  --color-sky-deep: #225ca0;
+  --color-lilac-soft: #f5edf7;
+  --color-lilac-deep: #7f2d95;
+  --color-sun-soft: #f9f6eb;
+  --color-sun-deep: #7d6812;
+
   /* ---- Semantic roles ---- */
   --color-background: #fff7f0;
   --color-surface: #ffffff;
-  --color-foreground: #2d2d2d;
+  --color-foreground: #3f3f3d;
   --color-muted: #726c66;
   --color-border: #ece5dc;
   --color-ring: #95c6ff;
@@ -54,5 +64,65 @@
   ::selection {
     background-color: color-mix(in srgb, var(--color-sky) 40%, transparent);
     color: var(--color-ink);
+  }
+}
+
+@layer components {
+  /*
+    Price filter thumb: a circle with a line through it — the simplest
+    possible "UFO" — used by PriceRangeSlider. Both prefixed pseudo-elements
+    need the full ruleset repeated; browsers drop the whole selector if any
+    part of a combined one is unsupported.
+  */
+  .price-slider-thumb::-webkit-slider-thumb {
+    appearance: none;
+    pointer-events: auto;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    border: 1.5px solid var(--color-ink);
+    background-color: var(--color-cream);
+    background-image: linear-gradient(var(--color-ink), var(--color-ink));
+    background-size: 60% 1.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 1px 2px rgba(45, 45, 45, 0.15);
+  }
+
+  .price-slider-thumb::-moz-range-thumb {
+    pointer-events: auto;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    border: 1.5px solid var(--color-ink);
+    background-color: var(--color-cream);
+    background-image: linear-gradient(var(--color-ink), var(--color-ink));
+    background-size: 60% 1.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 1px 2px rgba(45, 45, 45, 0.15);
+  }
+
+  .price-slider-thumb::-webkit-slider-runnable-track {
+    appearance: none;
+    background: transparent;
+  }
+
+  .price-slider-thumb::-moz-range-track {
+    background: transparent;
+  }
+
+  /* Native-scroll carousels (e.g. related products) — the scrollbar is
+     redundant next to the arrow buttons and snap dots already signalling
+     "more content this way". */
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }

@@ -1,9 +1,12 @@
 import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
 import { FlagshipCategories } from "@/components/sections/flagship-categories";
-import { FeaturedCategories } from "@/components/sections/featured-categories";
 import { WhyCityGlory } from "@/components/sections/why-city-glory";
-import { FeaturedProducts } from "@/components/sections/featured-products";
+import { Favorites } from "@/components/sections/favorites";
+import { ArticlesPreview } from "@/components/sections/articles-preview";
+import { ImprovementIdeas } from "@/components/sections/improvement-ideas";
+import { Guides } from "@/components/sections/guides";
+import { LikedProjects } from "@/components/sections/liked-projects";
 import { Newsletter } from "@/components/sections/newsletter";
 import { SectionWave } from "@/components/ui/section-wave";
 
@@ -17,13 +20,18 @@ export default async function HomePage({
 
   return (
     <>
+      <SectionWave />
       <Hero />
       <SectionWave />
       <FlagshipCategories />
       <SectionWave />
-      <FeaturedCategories />
       <WhyCityGlory />
-      <FeaturedProducts />
+      <Favorites />
+      <ArticlesPreview />
+      <SectionWave />
+      <ImprovementIdeas />
+      <Guides />
+      <LikedProjects />
       <Newsletter />
     </>
   );

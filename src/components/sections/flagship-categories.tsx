@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { getFeaturedProductByCategory } from "@/lib/shopify";
 import type { ProductCategory } from "@/lib/shopify/types";
@@ -16,7 +16,6 @@ const flagship: { key: ProductCategory; slug: string }[] = [
 ];
 
 export async function FlagshipCategories() {
-  const t = await getTranslations("home");
   const tCat = await getTranslations("category");
 
   const banners = await Promise.all(
@@ -29,20 +28,14 @@ export async function FlagshipCategories() {
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
-      <Reveal>
-        <h2 className="text-2xl font-semibold lowercase tracking-tight text-ink sm:text-3xl">
-          {t("flagshipTitle")}
-        </h2>
-      </Reveal>
-
-      <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
         {banners.map(({ key, slug, product }, i) => {
           const image = product?.images[0];
           return (
             <Reveal key={key} delay={i * 0.05}>
               <Link
                 href={`/${slug}`}
-                className="group relative block aspect-[4/5] overflow-hidden rounded-2xl bg-mist"
+                className="group relative block aspect-square overflow-hidden rounded-lg bg-mist"
               >
                 {image && (
                   <Image
@@ -58,7 +51,7 @@ export async function FlagshipCategories() {
                   <span className="text-base lowercase tracking-tight text-cream sm:text-lg">
                     {tCat(key)}
                   </span>
-                  <ArrowRight
+                  <ChevronRight
                     className="size-4 shrink-0 text-cream transition-transform duration-200 group-hover:translate-x-0.5"
                     aria-hidden
                   />

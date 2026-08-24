@@ -7,6 +7,8 @@ import { routing } from "@/i18n/routing";
 import { AnnouncementBar } from "@/components/layout/announcement-bar";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { CartDrawer } from "@/components/commerce/cart-drawer";
+import { CartProvider } from "@/lib/cart/context";
 import "../globals.css";
 
 // Montserrat is the only website typeface. `latin-ext` is required for Slovak
@@ -45,15 +47,18 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={montserrat.variable}>
+    <html lang={locale} className={`${montserrat.variable} scroll-smooth`}>
       <body className="antialiased">
         <NextIntlClientProvider>
-          <div className="flex min-h-dvh flex-col">
-            <AnnouncementBar />
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
+          <CartProvider>
+            <div className="flex min-h-dvh flex-col">
+              <AnnouncementBar />
+              <Header />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
+            <CartDrawer />
+          </CartProvider>
         </NextIntlClientProvider>
       </body>
     </html>

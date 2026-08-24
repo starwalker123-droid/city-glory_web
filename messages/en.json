@@ -1,13 +1,13 @@
 {
   "nav": {
     "oblecenie": "clothing",
-    "doplnky": "accessories",
+    "doplnky": "for joy",
     "clanky": "articles",
     "capsula": "capsula",
     "viral": "viral",
     "spravy": "stories",
     "sprievodcovia": "guides",
-    "preFirmy": "for business",
+    "preFirmy": "custom",
     "kontakt": "contact+"
   },
   "common": {
@@ -36,10 +36,23 @@
     "goTo": "go to announcement {number}"
   },
   "home": {
-    "heroEyebrow": "cultural store",
-    "heroHeading": "every city has a story",
-    "heroSubtitle": "we turn the stories, places and atmosphere of cities into beautiful, collectible objects.",
-    "categoriesTitle": "what we make",
+    "heroSlides": {
+      "motifs": {
+        "heading": "interesting motifs with a story",
+        "subtitle": "we connect interesting places with graphic motifs, complemented by original stories."
+      },
+      "capsula": {
+        "heading": "capsula: limited collaborations with artists",
+        "subtitle": "original collections created together with artists and local personalities."
+      },
+      "viral": {
+        "heading": "viral: moments that resonate",
+        "subtitle": "limited collections reacting to current trends and cultural moments."
+      }
+    },
+    "heroPrev": "previous banner",
+    "heroNext": "next banner",
+    "heroGoTo": "go to banner {number}",
     "flagshipTitle": "popular categories",
     "whyTitle": "why city glory",
     "why": {
@@ -60,8 +73,90 @@
         "text": "Comfortable returns within 14 days, no hassle."
       }
     },
-    "featuredTitle": "featured pieces",
-    "featuredSubtitle": "across every category — not just bestsellers"
+    "favoritesEyebrow": "selected",
+    "articlesEyebrow": "articles",
+    "novinkyEyebrow": "ideas for improvement",
+    "novinky": {
+      "hlasovanie": {
+        "title": "vote for the next city",
+        "excerpt": "choose which city should get its own collection next."
+      },
+      "spatnaVazba": {
+        "title": "tell us what's missing",
+        "excerpt": "we read your ideas for new motifs and products — and think them through."
+      }
+    },
+    "guidesEyebrow": "guides",
+    "guides": {
+      "zuzanaGodarova": {
+        "focus": "musical bratislava",
+        "promo": "If you're a music lover — whether it's classical, modern, rock or the alternative scene — guide Zuzana will help you discover musical Bratislava like no guidebook ever could."
+      },
+      "lubaSolanova": {
+        "focus": "scientists of pressburg",
+        "promo": "If you want to know what brought Edison and Einstein to Bratislava, and which Bratislava natives were behind major scientific discoveries, you're in the right place."
+      },
+      "katkaStanikova": {
+        "focus": "bratislava running tour",
+        "promo": "Discover the best of Bratislava at a running pace. Made for running enthusiasts and lovers of exploring new places."
+      },
+      "oliverKriz": { "focus": "jewish bratislava" }
+    },
+    "likedProjectsEyebrow": "projects we like"
+  },
+  "clanky": {
+    "pageIntro": "stories, news and a look behind the scenes at city glory.",
+    "shopPromoTitle": "like this story?",
+    "shopPromoText": "take a look at the products that carry it forward.",
+    "shopPromoCta": "view product",
+    "backToTop": "back to the start of the article",
+    "galleryTitle": "photo gallery"
+  },
+  "kontakt": {
+    "tagline": "We're a small Bratislava team turning the city's stories into objects with soul.",
+    "photoAlt": "Old town alleys",
+    "aboutTitle": "about us",
+    "about": {
+      "p1": "We know Bratislava intimately — not from tourist guides, but from everyday walks, café conversations and the small details most people walk straight past. City Glory started with the urge to capture exactly those details and turn them into something you can hang on a wall, stick on a fridge, or wear.",
+      "p2": "Behind every motif is a story — sometimes true, sometimes only half. About the people and events that shaped the city, and a few we've embellished just a little. Who knows, some might still come true.",
+      "p3": "Beyond the products, you'll find articles and tips from people who genuinely know Bratislava — local guides, community projects, and details that might surprise you even if you've lived here your whole life.",
+      "p4": "City Glory is a small team — Táňa, Jany, Ivo, Dominika and Miro. What we share is a love of graphic design and storytelling and, let's be honest, a mild obsession with detail. That's exactly the combination that goes into every product.",
+      "p5": "Bratislava is only the beginning. We'd love to tell the same kind of stories about other cities one day — and you can help decide which one comes next."
+    },
+    "motifsTitle": "selected motifs",
+    "form": {
+      "title": "write to us",
+      "intro": "Got a question, an idea for a collaboration, or just want to say hi? We'd love to hear what's on your mind.",
+      "name": "full name",
+      "email": "email",
+      "message": "message",
+      "submit": "send message",
+      "consent": "i agree to the processing of my personal data",
+      "successTitle": "thank you!",
+      "successText": "Your message is on its way to us. We'll get back to you as soon as possible.",
+      "replyNote": "We'll reply as soon as possible.",
+      "businessNote": "Looking for custom products for your business?",
+      "businessLink": "see our offer for businesses"
+    }
+  },
+  "preFirmyPage": {
+    "intro": "We love creating products with a unique identity — for companies looking for something exceptional, and for individuals after a graphic design of their own.",
+    "body": {
+      "p1": "Every custom product we make starts the same way our own motifs do — with a story. The place, brand or idea you want to capture becomes a graphic with us, and eventually an object you'll actually want to keep.",
+      "p2": "We work with both companies and individuals. Sometimes it's client gifts carrying a brand's own identity, sometimes a single piece for someone who wants something truly their own at home or in the office. That's how we created custom motifs for Hotel Carlton, for instance, and more hotels and venues looking for their own visual identity with the city's soul keep joining in.",
+      "p3": "The process is simple — we get to know your story, design a motif that captures it, and work out together which product it suits best. From t-shirts to magnets, tiles or prints.",
+      "p4": "If you like one of our existing designs and would like something similar, but your own — for your brand, or just for yourself — get in touch. We'd love to take a look."
+    },
+    "ctaTitle": "want something similar?",
+    "ctaText": "send us a few words about your idea and we'll get back to you.",
+    "ctaButton": "get in touch"
+  },
+  "newsCategory": {
+    "vsetky": "all",
+    "osobnosti": "personalities",
+    "udalosti": "events",
+    "zaujimavosti": "curiosities",
+    "umenie": "art"
   },
   "footer": {
     "tagline": "we turn city stories into beautiful objects.",
@@ -80,10 +175,17 @@
     "rights": "All rights reserved."
   },
   "newsletter": {
-    "heading": "be the first to know",
-    "subtitle": "early access, limited editions and city stories — straight to your inbox.",
+    "heading": "sign up for updates",
+    "intro": "if you're interested in:",
+    "benefits": {
+      "earlyAccess": "early access to news",
+      "loyalty": "loyalty perks",
+      "limited": "limited offers"
+    },
     "placeholder": "your email",
-    "submit": "subscribe"
+    "submit": "subscribe",
+    "captchaLabel": "i'm not a robot",
+    "consent": "i agree to the processing of my data"
   },
   "category": {
     "tricka": "t-shirts",
@@ -104,6 +206,73 @@
     "sviecky": "candles",
     "zapisniky": "notebooks"
   },
+  "product": {
+    "emptyCategory": "no products in this category yet.",
+    "outOfStock": "sold out",
+    "filters": "filters",
+    "clearFilters": "clear filters",
+    "audience": "for",
+    "size": "size",
+    "color": "color",
+    "price": "price",
+    "onOrder": "made to order",
+    "noResults": "no products match the selected filters.",
+    "previousImage": "previous image",
+    "nextImage": "next image",
+    "openImage": "enlarge photo",
+    "showMore": "show more products",
+    "backToTop": "back to the first products",
+    "sizeGuide": "size guide",
+    "quantity": "quantity",
+    "inStock": "in stock",
+    "estimatedShipping": "estimated dispatch {date}",
+    "motifStory": "story behind the motif",
+    "suitableForTitle": "who it's for",
+    "suitableForText": "For anyone who loves Bratislava — whether they live here, just visited, or carry it in their memories. Works just as well as a gift as it does as a small treat for yourself.",
+    "usefulInfoTitle": "useful information",
+    "usefulInfoText": "We pack with care and ship within 2 business days. Not sure about sizing? Check the size guide above, or write to us at info@cityglory.sk.",
+    "relatedTitle": "you might also like",
+    "previousProducts": "previous products",
+    "nextProducts": "next products"
+  },
+  "cart": {
+    "title": "cart",
+    "empty": "your cart is empty for now.",
+    "continueShopping": "continue shopping",
+    "remove": "remove",
+    "subtotal": "subtotal",
+    "shippingNote": "shipping is calculated at checkout.",
+    "checkout": "proceed to checkout"
+  },
+  "checkout": {
+    "title": "checkout",
+    "contactTitle": "contact details",
+    "email": "email",
+    "deliveryTitle": "delivery address",
+    "fullName": "full name",
+    "address": "street and number",
+    "city": "city",
+    "zip": "zip code",
+    "phone": "phone",
+    "paymentTitle": "payment method",
+    "paymentCard": "pay online by card",
+    "paymentCod": "cash on delivery",
+    "subtotal": "subtotal",
+    "shipping": "shipping",
+    "total": "total",
+    "submit": "order with obligation to pay",
+    "successTitle": "thank you for your order!",
+    "successText": "your order #{number} has been received. we've sent a confirmation to your email.",
+    "emptyTitle": "your cart is empty",
+    "emptyText": "add something you like to your cart, then come back here to check out.",
+    "backToShop": "back to shop"
+  },
+  "audience": {
+    "unisex": "unisex",
+    "damy": "women's",
+    "panske": "men's",
+    "deti": "kids'"
+  },
   "theme": {
     "mestaMiesta": "cities & places",
     "architektura": "architecture",
@@ -113,5 +282,12 @@
     "osobnosti": "personalities",
     "sTextom": "typographic",
     "abstraktne": "abstract"
+  },
+  "badge": {
+    "viral": "viral",
+    "akcia": "sale",
+    "capsula": "capsula",
+    "limitovane": "limited",
+    "novinka": "new"
   }
 }

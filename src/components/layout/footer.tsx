@@ -1,68 +1,56 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "./logo";
+import { CONTACT_EMAIL, CONTACT_PHONE } from "@/config/contact";
 
+const linkClass = "text-sm text-muted transition-colors hover:text-ink";
+
+/**
+ * Three columns (info / terms / brand) laid out as one 3×3 grid so matching
+ * rows line up across columns: faq—terms—logo, gdpr—complaints—email,
+ * cookies—(empty)—phone. Middle column is centered, right column trails.
+ */
 export function Footer() {
   const t = useTranslations("footer");
 
-  const columns = [
-    {
-      title: t("shop"),
-      links: [
-        { label: t("shop"), href: "/oblecenie" },
-        { label: t("clanky"), href: "/clanky" },
-        { label: t("newsletter"), href: "/#newsletter" },
-      ],
-    },
-    {
-      title: t("legal"),
-      links: [
-        { label: t("faq"), href: "/faq" },
-        { label: t("terms"), href: "/obchodne-podmienky" },
-        { label: t("complaints"), href: "/reklamacie" },
-        { label: t("shipping"), href: "/doprava-a-platba" },
-        { label: t("gdpr"), href: "/ochrana-udajov" },
-        { label: t("cookies"), href: "/cookies" },
-      ],
-    },
-    {
-      title: t("about"),
-      links: [{ label: t("contact"), href: "/kontakt" }],
-    },
-  ];
-
   return (
     <footer className="border-t border-border bg-cream">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="space-y-3">
+      <nav
+        aria-label={t("legal")}
+        className="mx-auto grid max-w-7xl grid-cols-3 items-center gap-x-6 gap-y-4 px-4 py-16 sm:gap-x-10"
+      >
+        <Link href="/faq" className={linkClass}>
+          {t("faq")}
+        </Link>
+        <Link href="/obchodne-podmienky" className={`${linkClass} text-center`}>
+          {t("terms")}
+        </Link>
+        <div className="flex justify-end">
           <Logo />
-          <p className="max-w-xs text-sm text-muted">{t("tagline")}</p>
         </div>
 
-        {columns.map((col) => (
-          <nav key={col.title} aria-label={col.title}>
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-ink">
-              {col.title}
-            </h3>
-            <ul className="mt-4 space-y-2.5">
-              {col.links.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-ink"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        ))}
-      </div>
+        <Link href="/ochrana-udajov" className={linkClass}>
+          {t("gdpr")}
+        </Link>
+        <Link href="/reklamacie" className={`${linkClass} text-center`}>
+          {t("complaints")}
+        </Link>
+        <a href={`mailto:${CONTACT_EMAIL}`} className={`${linkClass} text-right`}>
+          {CONTACT_EMAIL}
+        </a>
+
+        <Link href="/cookies" className={linkClass}>
+          {t("cookies")}
+        </Link>
+        <span aria-hidden />
+        <a href={`tel:${CONTACT_PHONE.replace(/\s/g, "")}`} className={`${linkClass} text-right`}>
+          {CONTACT_PHONE}
+        </a>
+      </nav>
 
       <div className="border-t border-border">
-        <p className="mx-auto max-w-7xl px-4 py-6 text-xs text-muted">
-          © {new Date().getFullYear()} City Glory. {t("rights")}
+        <p className="mx-auto max-w-7xl px-4 py-6 text-center text-xs text-muted">
+          © {new Date().getFullYear()} city glory. {t("rights")}
         </p>
       </div>
     </footer>
